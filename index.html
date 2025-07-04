@@ -3,65 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xem dữ liệu bệnh nhân</title>
+    <title>Quản Lý Bệnh Án</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
         .patient-card {
             border: 1px solid #ddd;
             border-radius: 5px;
             padding: 15px;
-            margin-bottom: 20px;
-            background-color: #f9f9f9;
-        }
-        .treatment-entry {
+            margin-bottom: 10px;
             background-color: #fff;
-            border-left: 4px solid #007bff;
-            padding: 10px;
-            margin-bottom: 15px;
         }
-        .header {
-            background-color: #006400;
-            color: white;
-            padding: 15px;
-            margin-bottom: 20px;
+        .modal-body .tab-content {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .treatment-details, .test-details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
             border-radius: 5px;
         }
-        .search-box {
-            margin-bottom: 20px;
-        }
-        .tab-content {
-            padding-top: 15px;
-        }
-        .nav-tabs .nav-link.active {
-            font-weight: bold;
+        @media (max-width: 576px) {
+            .patient-card {
+                padding: 10px;
+            }
+            .modal-dialog {
+                margin: 0;
+                max-width: 100%;
+            }
+            .modal-body {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header text-center">
-            <h4>BỆNH VIỆN HỮU NGHỊ VIỆT NAM - CU BA ĐỒNG HỚI</h4>
-            <h5>PHIẾU THEO DÕI ĐIỀU TRỊ</h5>
-        </div>
-
-        <div class="search-box">
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Quản Lý Bệnh Án</h2>
+        
+        <!-- Thanh tìm kiếm -->
+        <div class="mb-3">
             <input type="text" id="searchInput" class="form-control" placeholder="Tìm kiếm bệnh nhân...">
         </div>
 
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="dang-dieu-tri-tab" data-bs-toggle="tab" data-bs-target="#dang-dieu-tri" type="button" role="tab">Đang điều trị</button>
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-3" id="patientTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="dang-dieu-tri-tab" data-bs-toggle="tab" href="#dang-dieu-tri" role="tab">Đang Điều Trị</a>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="ra-vien-tab" data-bs-toggle="tab" data-bs-target="#ra-vien" type="button" role="tab">Ra viện</button>
+            <li class="nav-item">
+                <a class="nav-link" id="ra-vien-tab" data-bs-toggle="tab" href="#ra-vien" role="tab">Ra Viện</a>
             </li>
         </ul>
 
-        <div class="tab-content" id="myTabContent">
+        <!-- Tab Content -->
+        <div class="tab-content">
             <div class="tab-pane fade show active" id="dang-dieu-tri" role="tabpanel">
                 <div id="patientList"></div>
             </div>
@@ -71,43 +68,61 @@
         </div>
     </div>
 
-    <!-- Modal for patient details -->
-    <div class="modal fade" id="patientModal" tabindex="-1" aria-hidden="true">
+    <!-- Modal Chi Tiết Bệnh Nhân -->
+    <div class="modal fade" id="patientModal" tabindex="-1" aria-labelledby="patientModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="patientModalTitle">Chi tiết bệnh nhân</h5>
+                    <h5 class="modal-title" id="patientModalLabel">Chi Tiết Bệnh Nhân</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <p><strong>Mã bệnh nhân:</strong> <span id="modalMaBenhNhan"></span></p>
-                            <p><strong>Họ tên:</strong> <span id="modalHoTen"></span></p>
-                            <p><strong>Tuổi/Giới tính:</strong> <span id="modalTuoiGioiTinh"></span></p>
+                    <!-- Thông Tin Cơ Bản -->
+                    <div class="mb-3">
+                        <h6>Thông Tin Cơ Bản</h6>
+                        <p><strong>Mã BN:</strong> <span id="modalMaBenhNhan"></span></p>
+                        <p><strong>Họ Tên:</strong> <span id="modalHoTen"></span></p>
+                        <p><strong>Tuổi/Giới Tính:</strong> <span id="modalTuoiGioiTinh"></span></p>
+                        <p><strong>Khoa:</strong> <span id="modalKhoa"></span></p>
+                        <p><strong>Phòng/Giường:</strong> <span id="modalPhongGiuong"></span></p>
+                        <p><strong>Ngày Vào Viện:</strong> <span id="modalNgayVaoVien"></span></p>
+                        <p><strong>Chẩn Đoán:</strong> <span id="modalChanDoan"></span></p>
+                    </div>
+
+                    <!-- Tabs Diễn Biến và Xét Nghiệm -->
+                    <ul class="nav nav-tabs mb-3" id="detailTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="treatment-tab" data-bs-toggle="tab" href="#treatment" role="tab">Diễn Biến Điều Trị</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="test-tab" data-bs-toggle="tab" href="#test" role="tab">Xét Nghiệm</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <!-- Tab Diễn Biến Điều Trị -->
+                        <div class="tab-pane fade show active" id="treatment" role="tabpanel">
+                            <div id="treatmentTimeline"></div>
+                            <button class="btn btn-sm btn-primary mt-2 view-treatment-details">Xem Chi Tiết Diễn Biến</button>
+                            <div class="treatment-details" id="treatmentDetails">
+                                <h6>Chi Tiết Diễn Biến</h6>
+                                <div id="fullTreatmentDetails"></div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <p><strong>Khoa:</strong> <span id="modalKhoa"></span></p>
-                            <p><strong>Phòng/Giường:</strong> <span id="modalPhongGiuong"></span></p>
-                            <p><strong>Ngày vào viện:</strong> <span id="modalNgayVaoVien"></span></p>
+                        <!-- Tab Xét Nghiệm -->
+                        <div class="tab-pane fade" id="test" role="tabpanel">
+                            <p><strong>Xét Nghiệm Máu:</strong> <span id="modalXetNghiemMau"></span></p>
+                            <p><strong>Xét Nghiệm Hình Ảnh:</strong> <span id="modalXetNghiemHinhAnh"></span></p>
+                            <button class="btn btn-sm btn-primary mt-2 view-test-details">Xem Chi Tiết Xét Nghiệm</button>
+                            <div class="test-details" id="testDetails">
+                                <h6>Chi Tiết Xét Nghiệm</h6>
+                                <p><strong>Xét Nghiệm Máu:</strong></p>
+                                <div id="fullXetNghiemMau" style="white-space: pre-line;"></div>
+                                <p><strong>Xét Nghiệm Hình Ảnh:</strong></p>
+                                <div id="fullXetNghiemHinhAnh" style="white-space: pre-line;"></div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <p><strong>Chẩn đoán:</strong> <span id="modalChanDoan"></span></p>
-                    <p><strong>Chẩn đoán phân biệt:</strong> <span id="modalChanDoanPhanBiet"></span></p>
-                    
-                    <hr>
-                    
-                    <h5>Xét nghiệm máu</h5>
-                    <div id="modalXetNghiemMau" class="bg-light p-2 mb-3" style="white-space: pre-line;"></div>
-                    
-                    <h5>Xét nghiệm hình ảnh</h5>
-                    <div id="modalXetNghiemHinhAnh" class="bg-light p-2 mb-3" style="white-space: pre-line;"></div>
-                    
-                    <hr>
-                    
-                    <h5>Diễn biến điều trị</h5>
-                    <div id="treatmentTimeline"></div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>

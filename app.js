@@ -10,7 +10,7 @@ async function loadData() {
         
         // Phân loại bệnh nhân đang điều trị và ra viện
         patientsData = data; // Tạm thời coi tất cả là đang điều trị
-        // dischargedPatientsData = data.filter(p => p.discharged); // Nếu có trường discharged
+        dischargedPatientsData = []; // Nếu có trường discharged, có thể lọc: data.filter(p => p.discharged)
         
         renderPatientList();
         renderDischargedList();
@@ -151,7 +151,7 @@ function showPatientDetails(patientId) {
             return dateA - dateB;
         });
         
-        // Hiển thị tóm tắt (ví dụ: ngày gần nhất)
+        // Hiển thị tóm tắt (ngày gần nhất)
         const latestTreatment = sortedTreatments[sortedTreatments.length - 1];
         const [time, date] = latestTreatment.ngay_gio_y_lenh.split(' ');
         const dayOfWeek = getDayOfWeek(date);
@@ -174,7 +174,7 @@ function showPatientDetails(patientId) {
         `;
         timeline.appendChild(entry);
 
-        // Hiển thị chi tiết đầy đủ khi nhấn "Xem chi tiết"
+        // Hiển thị chi tiết đầy đủ
         sortedTreatments.forEach(treatment => {
             const [tTime, tDate] = treatment.ngay_gio_y_lenh.split(' ');
             const tDayOfWeek = getDayOfWeek(tDate);
@@ -213,22 +213,26 @@ function showPatientDetails(patientId) {
     document.getElementById('treatmentDetails').style.display = 'none';
     document.getElementById('testDetails').style.display = 'none';
 
-    // Thêm sự kiện cho nút Xem chi tiết Diễn biến
-    document.querySelector('.view-treatment-details').addEventListener('click', () => {
-        const details = document.getElementById('treatmentDetails');
-        details.style.display = details.style.display === 'none' ? 'block' : 'none';
-    });
-
-    // Thêm sự kiện cho nút Xem chi tiết Xét nghiệm
-    document.querySelector('.view-test-details').addEventListener('click', () => {
-        const details = document.getElementById('testDetails');
-        details.style.display = details.style.display === 'none' ? 'block' : 'none';
-    });
-
     // Hiển thị modal
     const modal = new bootstrap.Modal(document.getElementById('patientModal'));
     modal.show();
 }
+
+// Gắn sự kiện ủy quyền cho modal
+document.addEventListener('DOMContentLoaded', () => {
+    const modalBody = document.querySelector('.modal-body');
+    if (modalBody) {
+        modalBody.addEventListener('click', (event) => {
+            if (event.target.classList.contains('view-treatment-details')) {
+                const details = document.getElementById('treatmentDetails');
+                details.style.display = details.style.display === 'none' ? 'block' : 'none';
+            } else if (event.target.classList.contains('view-test-details')) {
+                const details = document.getElementById('testDetails');
+                details.style.display = details.style.display === 'none' ? 'block' : 'none';
+            }
+        });
+    }
+});
 
 // Hàm rút gọn văn bản
 function truncateText(text, maxLength) {

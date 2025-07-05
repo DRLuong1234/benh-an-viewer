@@ -154,36 +154,6 @@ function showPatientDetails(patientId) {
             return dateA - dateB;
         });
 
-        // Lọc các treatment thuộc tờ số 1
-        const toSo1Treatments = sortedTreatments.filter(t => t.to_so === '1');
-        
-        // Hiển thị tóm tắt cho tờ số 1 (trang 1: lấy treatment sớm nhất của tờ 1)
-        if (toSo1Treatments.length > 0) {
-            const firstTreatment = toSo1Treatments[0]; // Trang 1: treatment sớm nhất của tờ 1
-            const [time, date] = firstTreatment.ngay_gio_y_lenh.split(' ');
-            const dayOfWeek = getDayOfWeek(date);
-            
-            const entry = document.createElement('div');
-            entry.className = 'treatment-entry mb-3';
-            entry.innerHTML = `
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h6 class="mb-0">${time} ${date} (${dayOfWeek}) - Tờ số: ${firstTreatment.to_so || '1'}</h6>
-                    <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
-                        <div class="bg-light p-2" style="white-space: pre-line;">
-                            ${truncateText(firstTreatment.dien_bien || 'Không có', 100)}
-                        </div>
-                    </div>
-                </div>
-            `;
-            timeline.appendChild(entry);
-        } else {
-            timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị cho tờ 1.</div>';
-        }
-
         // Thêm dropdown để chọn ngày y lệnh
         if (treatmentSelect) {
             treatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
@@ -192,7 +162,7 @@ function showPatientDetails(patientId) {
                 const tDayOfWeek = getDayOfWeek(tDate);
                 const option = document.createElement('option');
                 option.value = treatment.ngay_gio_y_lenh;
-                option.textContent = `${tTime} ${tDate} (${tDayOfWeek}) - Tờ số: ${treatment.to_so || '1'}`;
+                option.textContent = `${tTime} ${tDate} (${tDayOfWeek})`;
                 treatmentSelect.appendChild(option);
             });
 
@@ -209,46 +179,14 @@ function showPatientDetails(patientId) {
                         entry.className = 'treatment-entry mb-3';
                         entry.innerHTML = `
                             <div class="d-flex justify-content-between align-items-center mb-2">
-                                <h6 class="mb-0">${sTime} ${sDate} (${sDayOfWeek}) - Tờ số: ${selectedTreatment.to_so || '1'}</h6>
+                                <h6 class="mb-0">${sTime} ${sDate} (${sDayOfWeek})</h6>
                                 <small class="text-muted">${selectedTreatment.bac_si_dieu_tri}</small>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
-                                    <div class="bg-light p-2" style="white-space: pre-line;">
-                                        ${truncateText(selectedTreatment.dien_bien || 'Không có', 100)}
-                                    </div>
-                                </div>
                             </div>
                         `;
                         timeline.appendChild(entry);
                     }
                 } else {
-                    // Mặc định hiển thị tờ 1 nếu không chọn ngày
-                    if (toSo1Treatments.length > 0) {
-                        const firstTreatment = toSo1Treatments[0];
-                        const [time, date] = firstTreatment.ngay_gio_y_lenh.split(' ');
-                        const dayOfWeek = getDayOfWeek(date);
-                        const entry = document.createElement('div');
-                        entry.className = 'treatment-entry mb-3';
-                        entry.innerHTML = `
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <h6 class="mb-0">${time} ${date} (${dayOfWeek}) - Tờ số: ${firstTreatment.to_so || '1'}</h6>
-                                <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
-                                    <div class="bg-light p-2" style="white-space: pre-line;">
-                                        ${truncateText(firstTreatment.dien_bien || 'Không có', 100)}
-                                    </div>
-                                </div>
-                            </div>
-                        `;
-                        timeline.appendChild(entry);
-                    } else {
-                        timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị cho tờ 1.</div>';
-                    }
+                    timeline.innerHTML = ''; // Không hiển thị gì nếu không chọn ngày
                 }
             });
         }
@@ -261,7 +199,7 @@ function showPatientDetails(patientId) {
             detailEntry.className = 'treatment-entry mb-3';
             detailEntry.innerHTML = `
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h6 class="mb-0">${tTime} ${tDate} (${tDayOfWeek}) - Tờ số: ${treatment.to_so || '1'}</h6>
+                    <h6 class="mb-0">${tTime} ${tDate} (${tDayOfWeek})</h6>
                     <small class="text-muted">${treatment.bac_si_dieu_tri}</small>
                 </div>
                 <div class="row">

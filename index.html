@@ -24,6 +24,10 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
+        #treatmentSelect {
+            width: 100%;
+            margin-bottom: 10px;
+        }
         @media (max-width: 576px) {
             .patient-card {
                 padding: 10px;
@@ -102,6 +106,9 @@
                     <div class="tab-content">
                         <!-- Tab Diễn Biến Điều Trị -->
                         <div class="tab-pane fade show active" id="treatment" role="tabpanel">
+                            <select id="treatmentSelect" class="form-select mb-3">
+                                <option value="">Chọn ngày y lệnh</option>
+                            </select>
                             <div id="treatmentTimeline"></div>
                             <button class="btn btn-sm btn-primary mt-2 view-treatment-details">Xem Chi Tiết Diễn Biến</button>
                             <div class="treatment-details" id="treatmentDetails">

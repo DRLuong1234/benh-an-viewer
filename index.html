@@ -17,13 +17,6 @@
             max-height: 400px;
             overflow-y: auto;
         }
-        .treatment-details, .test-details {
-            display: none;
-            margin-top: 10px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
         #treatmentSelect {
             width: 100%;
             margin-bottom: 10px;
@@ -110,24 +103,11 @@
                                 <option value="">Chọn ngày y lệnh</option>
                             </select>
                             <div id="treatmentTimeline"></div>
-                            <button class="btn btn-sm btn-primary mt-2 view-treatment-details">Xem Chi Tiết Diễn Biến</button>
-                            <div class="treatment-details" id="treatmentDetails">
-                                <h6>Chi Tiết Diễn Biến</h6>
-                                <div id="fullTreatmentDetails"></div>
-                            </div>
                         </div>
                         <!-- Tab Xét Nghiệm -->
                         <div class="tab-pane fade" id="test" role="tabpanel">
                             <p><strong>Xét Nghiệm Máu:</strong> <span id="modalXetNghiemMau"></span></p>
                             <p><strong>Xét Nghiệm Hình Ảnh:</strong> <span id="modalXetNghiemHinhAnh"></span></p>
-                            <button class="btn btn-sm btn-primary mt-2 view-test-details">Xem Chi Tiết Xét Nghiệm</button>
-                            <div class="test-details" id="testDetails">
-                                <h6>Chi Tiết Xét Nghiệm</h6>
-                                <p><strong>Xét Nghiệm Máu:</strong></p>
-                                <div id="fullXetNghiemMau" style="white-space: pre-line;"></div>
-                                <p><strong>Xét Nghiệm Hình Ảnh:</strong></p>
-                                <div id="fullXetNghiemHinhAnh" style="white-space: pre-line;"></div>
-                            </div>
                         </div>
                     </div>
                 </div>

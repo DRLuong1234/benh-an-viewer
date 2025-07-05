@@ -9,8 +9,8 @@ async function loadData() {
         const data = await response.json();
         
         // Phân loại bệnh nhân đang điều trị và ra viện
-        patientsData = data; // Tạm thời coi tất cả là đang điều trị
-        dischargedPatientsData = []; // Hiện tại chưa có dữ liệu ra viện, để rỗng
+        patientsData = data.patients || [];
+        dischargedPatientsData = data.discharged || [];
         
         renderPatientList();
         renderDischargedList();
@@ -127,6 +127,7 @@ function renderDischargedList(filter = '') {
 
 // Hàm hiển thị chi tiết bệnh nhân trong modal
 function showPatientDetails(patientId) {
+    // Tìm bệnh nhân trong cả hai danh sách
     const patient = [...patientsData, ...dischargedPatientsData].find(p => p.ma_benh_nhan === patientId);
     if (!patient) return;
     

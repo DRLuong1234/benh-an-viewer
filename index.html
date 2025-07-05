@@ -3,106 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý Bệnh nhân</title>
+    <title>Quản Lý Bệnh Án</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .patient-card {
-            background-color: white;
-            border-radius: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
             padding: 15px;
-            margin-bottom: 15px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+            background-color: #fff;
         }
-        .treatment-entry {
-            border-left: 3px solid #0d6efd;
-            padding-left: 15px;
-            margin-left: 5px;
+        .modal-body .tab-content {
+            max-height: 400px;
+            overflow-y: auto;
         }
-        .nav-tabs .nav-link.active {
-            font-weight: bold;
-            border-bottom: 3px solid #0d6efd;
+        #treatmentSelect {
+            width: 100%;
+            margin-bottom: 10px;
         }
-        #searchInput {
-            max-width: 400px;
-            margin-bottom: 20px;
+        @media (max-width: 576px) {
+            .patient-card {
+                padding: 10px;
+            }
+            .modal-dialog {
+                margin: 0;
+                max-width: 100%;
+            }
+            .modal-body {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container py-4">
-        <h2 class="mb-4">Quản lý Bệnh nhân</h2>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Quản Lý Bệnh Án</h2>
         
+        <!-- Thanh tìm kiếm -->
+        <div class="mb-3">
+            <input type="text" id="searchInput" class="form-control" placeholder="Tìm kiếm bệnh nhân...">
+        </div>
+
+        <!-- Tabs -->
         <ul class="nav nav-tabs mb-3" id="patientTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="dang-dieu-tri-tab" data-bs-toggle="tab" data-bs-target="#dangDieuTri" type="button" role="tab">Đang điều trị</button>
+            <li class="nav-item">
+                <a class="nav-link active" id="dang-dieu-tri-tab" data-bs-toggle="tab" href="#dang-dieu-tri" role="tab">Đang Điều Trị</a>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="ra-vien-tab" data-bs-toggle="tab" data-bs-target="#raVien" type="button" role="tab">Ra viện</button>
+            <li class="nav-item">
+                <a class="nav-link" id="ra-vien-tab" data-bs-toggle="tab" href="#ra-vien" role="tab">Ra Viện</a>
             </li>
         </ul>
-        
-        <div class="mb-3">
-            <input type="text" class="form-control" id="searchInput" placeholder="Tìm kiếm bệnh nhân...">
-        </div>
-        
+
+        <!-- Tab Content -->
         <div class="tab-content">
-            <div class="tab-pane fade show active" id="dangDieuTri" role="tabpanel" aria-labelledby="dang-dieu-tri-tab">
+            <div class="tab-pane fade show active" id="dang-dieu-tri" role="tabpanel">
                 <div id="patientList"></div>
             </div>
-            <div class="tab-pane fade" id="raVien" role="tabpanel" aria-labelledby="ra-vien-tab">
+            <div class="tab-pane fade" id="ra-vien" role="tabpanel">
                 <div id="dischargedList"></div>
             </div>
         </div>
     </div>
 
-    <!-- Patient Details Modal -->
+    <!-- Modal Chi Tiết Bệnh Nhân -->
     <div class="modal fade" id="patientModal" tabindex="-1" aria-labelledby="patientModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="patientModalLabel">Chi tiết bệnh nhân</h5>
+                    <h5 class="modal-title" id="patientModalLabel">Chi Tiết Bệnh Nhân</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <p><strong>Mã bệnh nhân:</strong> <span id="modalMaBenhNhan"></span></p>
-                            <p><strong>Họ tên:</strong> <span id="modalHoTen"></span></p>
-                            <p><strong>Tuổi/Giới tính:</strong> <span id="modalTuoiGioiTinh"></span></p>
-                        </div>
-                        <div class="col-md-6">
-                            <p><strong>Khoa:</strong> <span id="modalKhoa"></span></p>
-                            <p><strong>Phòng/Giường:</strong> <span id="modalPhongGiuong"></span></p>
-                            <p><strong>Ngày vào viện:</strong> <span id="modalNgayVaoVien"></span></p>
-                        </div>
+                    <!-- Thông Tin Cơ Bản -->
+                    <div class="mb-3">
+                        <h6>Thông Tin Cơ Bản</h6>
+                        <p><strong>Mã BN:</strong> <span id="modalMaBenhNhan"></span></p>
+                        <p><strong>Họ Tên:</strong> <span id="modalHoTen"></span></p>
+                        <p><strong>Tuổi/Giới Tính:</strong> <span id="modalTuoiGioiTinh"></span></p>
+                        <p><strong>Khoa:</strong> <span id="modalKhoa"></span></p>
+                        <p><strong>Phòng/Giường:</strong> <span id="modalPhongGiuong"></span></p>
+                        <p><strong>Ngày Vào Viện:</strong> <span id="modalNgayVaoVien"></span></p>
+                        <p><strong>Chẩn Đoán:</strong> <span id="modalChanDoan"></span></p>
                     </div>
-                    <p><strong>Chẩn đoán:</strong> <span id="modalChanDoan"></span></p>
-                    
+
+                    <!-- Tabs Diễn Biến và Xét Nghiệm -->
                     <ul class="nav nav-tabs mb-3" id="detailTabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="dien-bien-tab" data-bs-toggle="tab" data-bs-target="#dienBien" type="button" role="tab">Diễn biến điều trị</button>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="treatment-tab" data-bs-toggle="tab" href="#treatment" role="tab">Diễn Biến Điều Trị</a>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="xet-nghiem-tab" data-bs-toggle="tab" data-bs-target="#xetNghiem" type="button" role="tab">Xét nghiệm</button>
+                        <li class="nav-item">
+                            <a class="nav-link" id="test-tab" data-bs-toggle="tab" href="#test" role="tab">Xét Nghiệm</a>
                         </li>
                     </ul>
-                    
+
                     <div class="tab-content">
-                        <div class="tab-pane fade show active" id="dienBien" role="tabpanel" aria-labelledby="dien-bien-tab">
-                            <div class="mb-3">
-                                <select class="form-select" id="treatmentSelect">
-                                    <!-- Options will be added by JavaScript -->
-                                </select>
-                            </div>
+                        <!-- Tab Diễn Biến Điều Trị -->
+                        <div class="tab-pane fade show active" id="treatment" role="tabpanel">
+                            <select id="treatmentSelect" class="form-select mb-3">
+                                <option value="">Chọn ngày y lệnh</option>
+                            </select>
                             <div id="treatmentTimeline"></div>
                         </div>
-                        <div class="tab-pane fade" id="xetNghiem" role="tabpanel" aria-labelledby="xet-nghiem-tab">
-                            <div class="mb-3">
-                                <select class="form-select" id="testSelect">
-                                    <!-- Options will be added by JavaScript -->
-                                </select>
-                            </div>
-                            <div id="testResultsContainer"></div>
+                        <!-- Tab Xét Nghiệm -->
+                        <div class="tab-pane fade" id="test" role="tabpanel">
+                            <p><strong>Xét Nghiệm Máu:</strong> <span id="modalXetNghiemMau"></span></p>
+                            <p><strong>Xét Nghiệm Hình Ảnh:</strong> <span id="modalXetNghiemHinhAnh"></span></p>
                         </div>
                     </div>
                 </div>
@@ -114,6 +119,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
+    <script src="app.js"></script>
 </body>
 </html>

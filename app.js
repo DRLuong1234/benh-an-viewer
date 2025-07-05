@@ -10,13 +10,15 @@ async function loadData() {
         
         // Phân loại bệnh nhân đang điều trị và ra viện
         patientsData = data; // Tạm thời coi tất cả là đang điều trị
-        dischargedPatientsData = []; // Nếu có trường discharged, có thể lọc: data.filter(p => p.discharged)
+        dischargedPatientsData = []; // Hiện tại chưa có dữ liệu ra viện, để rỗng
         
         renderPatientList();
         renderDischargedList();
     } catch (error) {
         console.error('Lỗi khi tải dữ liệu:', error);
         document.getElementById('patientList').innerHTML = 
+            '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
+        document.getElementById('dischargedList').innerHTML = 
             '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
     }
 }
@@ -140,6 +142,7 @@ function showPatientDetails(patientId) {
     // Tab Diễn biến điều trị
     const timeline = document.getElementById('treatmentTimeline');
     const fullTreatmentDetails = document.getElementById('fullTreatmentDetails');
+    const treatmentSelect = document.getElementById('treatmentSelect');
     timeline.innerHTML = '';
     fullTreatmentDetails.innerHTML = '';
     
@@ -150,31 +153,107 @@ function showPatientDetails(patientId) {
             const dateB = new Date(b.ngay_gio_y_lenh.split(' ')[1].split('/').reverse().join('-') + ' ' + b.ngay_gio_y_lenh.split(' ')[0]);
             return dateA - dateB;
         });
+
+        // Lọc các treatment thuộc tờ số 1
+        const toSo1Treatments = sortedTreatments.filter(t => t.to_so === '1');
         
-        // Hiển thị tóm tắt (ngày gần nhất)
-        const latestTreatment = sortedTreatments[sortedTreatments.length - 1];
-        const [time, date] = latestTreatment.ngay_gio_y_lenh.split(' ');
-        const dayOfWeek = getDayOfWeek(date);
-        
-        const entry = document.createElement('div');
-        entry.className = 'treatment-entry mb-3';
-        entry.innerHTML = `
-            <div class="d-flex justify-content-between align-items-center mb-2">
-                <h6 class="mb-0">${time} ${date} (${dayOfWeek}) - Tờ số: ${latestTreatment.to_so || '1'}</h6>
-                <small class="text-muted">${latestTreatment.bac_si_dieu_tri}</small>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
-                    <div class="bg-light p-2" style="white-space: pre-line;">
-                        ${truncateText(latestTreatment.dien_bien || 'Không có', 100)}
+        // Hiển thị tóm tắt cho tờ số 1 (trang 1: lấy treatment sớm nhất của tờ 1)
+        if (toSo1Treatments.length > 0) {
+            const firstTreatment = toSo1Treatments[0]; // Trang 1: treatment sớm nhất của tờ 1
+            const [time, date] = firstTreatment.ngay_gio_y_lenh.split(' ');
+            const dayOfWeek = getDayOfWeek(date);
+            
+            const entry = document.createElement('div');
+            entry.className = 'treatment-entry mb-3';
+            entry.innerHTML = `
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h6 class="mb-0">${time} ${date} (${dayOfWeek}) - Tờ số: ${firstTreatment.to_so || '1'}</h6>
+                    <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
+                        <div class="bg-light p-2" style="white-space: pre-line;">
+                            ${truncateText(firstTreatment.dien_bien || 'Không có', 100)}
+                        </div>
                     </div>
                 </div>
-            </div>
-        `;
-        timeline.appendChild(entry);
+            `;
+            timeline.appendChild(entry);
+        } else {
+            timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị cho tờ 1.</div>';
+        }
 
-        // Hiển thị chi tiết đầy đủ
+        // Thêm dropdown để chọn ngày y lệnh
+        if (treatmentSelect) {
+            treatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
+            sortedTreatments.forEach(treatment => {
+                const [tTime, tDate] = treatment.ngay_gio_y_lenh.split(' ');
+                const tDayOfWeek = getDayOfWeek(tDate);
+                const option = document.createElement('option');
+                option.value = treatment.ngay_gio_y_lenh;
+                option.textContent = `${tTime} ${tDate} (${tDayOfWeek}) - Tờ số: ${treatment.to_so || '1'}`;
+                treatmentSelect.appendChild(option);
+            });
+
+            // Sự kiện chọn ngày y lệnh
+            treatmentSelect.addEventListener('change', function() {
+                const selectedDate = this.value;
+                timeline.innerHTML = '';
+                if (selectedDate) {
+                    const selectedTreatment = sortedTreatments.find(t => t.ngay_gio_y_lenh === selectedDate);
+                    if (selectedTreatment) {
+                        const [sTime, sDate] = selectedTreatment.ngay_gio_y_lenh.split(' ');
+                        const sDayOfWeek = getDayOfWeek(sDate);
+                        const entry = document.createElement('div');
+                        entry.className = 'treatment-entry mb-3';
+                        entry.innerHTML = `
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="mb-0">${sTime} ${sDate} (${sDayOfWeek}) - Tờ số: ${selectedTreatment.to_so || '1'}</h6>
+                                <small class="text-muted">${selectedTreatment.bac_si_dieu_tri}</small>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
+                                    <div class="bg-light p-2" style="white-space: pre-line;">
+                                        ${truncateText(selectedTreatment.dien_bien || 'Không có', 100)}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        timeline.appendChild(entry);
+                    }
+                } else {
+                    // Mặc định hiển thị tờ 1 nếu không chọn ngày
+                    if (toSo1Treatments.length > 0) {
+                        const firstTreatment = toSo1Treatments[0];
+                        const [time, date] = firstTreatment.ngay_gio_y_lenh.split(' ');
+                        const dayOfWeek = getDayOfWeek(date);
+                        const entry = document.createElement('div');
+                        entry.className = 'treatment-entry mb-3';
+                        entry.innerHTML = `
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="mb-0">${time} ${date} (${dayOfWeek}) - Tờ số: ${firstTreatment.to_so || '1'}</h6>
+                                <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
+                                    <div class="bg-light p-2" style="white-space: pre-line;">
+                                        ${truncateText(firstTreatment.dien_bien || 'Không có', 100)}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        timeline.appendChild(entry);
+                    } else {
+                        timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị cho tờ 1.</div>';
+                    }
+                }
+            });
+        }
+
+        // Hiển thị chi tiết đầy đủ khi nhấn "Xem chi tiết"
         sortedTreatments.forEach(treatment => {
             const [tTime, tDate] = treatment.ngay_gio_y_lenh.split(' ');
             const tDayOfWeek = getDayOfWeek(tDate);

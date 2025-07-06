@@ -9,15 +9,16 @@ async function loadData() {
         const data = await response.json();
         
         // Phân loại bệnh nhân đang điều trị và ra viện
-        // (Trong thực tế, bạn cần có trường phân loại trong dữ liệu)
         patientsData = data; // Tạm thời coi tất cả là đang điều trị
-        // dischargedPatientsData = data.filter(p => p.discharged); // Ví dụ nếu có trường discharged
+        dischargedPatientsData = []; // Hiện tại chưa có dữ liệu ra viện, để rỗng
         
         renderPatientList();
         renderDischargedList();
     } catch (error) {
         console.error('Lỗi khi tải dữ liệu:', error);
         document.getElementById('patientList').innerHTML = 
+            '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
+        document.getElementById('dischargedList').innerHTML = 
             '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
     }
 }
@@ -49,7 +50,7 @@ function renderPatientList(filter = '') {
         card.innerHTML = `
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h5>${patient.ho_ten}</h5>
+                    <h6>${patient.ho_ten}</h6>
                     <p class="mb-1"><strong>Mã BN:</strong> ${patient.ma_benh_nhan}</p>
                     <p class="mb-1"><strong>Tuổi/Giới tính:</strong> ${patient.tuoi}/${patient.gioi_tinh}</p>
                     <p class="mb-1"><strong>Chẩn đoán:</strong> ${patient.chan_doan}</p>
@@ -100,7 +101,7 @@ function renderDischargedList(filter = '') {
         card.innerHTML = `
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h5>${patient.ho_ten}</h5>
+                    <h6>${patient.ho_ten}</h6>
                     <p class="mb-1"><strong>Mã BN:</strong> ${patient.ma_benh_nhan}</p>
                     <p class="mb-1"><strong>Tuổi/Giới tính:</strong> ${patient.tuoi}/${patient.gioi_tinh}</p>
                     <p class="mb-1"><strong>Chẩn đoán:</strong> ${patient.chan_doan}</p>
@@ -137,12 +138,10 @@ function showPatientDetails(patientId) {
     document.getElementById('modalPhongGiuong').textContent = `${patient.phong} / ${patient.giuong}`;
     document.getElementById('modalNgayVaoVien').textContent = patient.thoi_gian;
     document.getElementById('modalChanDoan').textContent = patient.chan_doan;
-    document.getElementById('modalChanDoanPhanBiet').textContent = patient.chan_doan_phan_biet || 'Không có';
-    document.getElementById('modalXetNghiemMau').textContent = patient.xet_nghiem_mau || 'Không có';
-    document.getElementById('modalXetNghiemHinhAnh').textContent = patient.xet_nghiem_hinh_anh || 'Không có';
-    
-    // Hiển thị timeline điều trị
+
+    // Tab Diễn biến điều trị
     const timeline = document.getElementById('treatmentTimeline');
+    const treatmentSelect = document.getElementById('treatmentSelect');
     timeline.innerHTML = '';
     
     if (patient.treatments && patient.treatments.length > 0) {
@@ -152,39 +151,112 @@ function showPatientDetails(patientId) {
             const dateB = new Date(b.ngay_gio_y_lenh.split(' ')[1].split('/').reverse().join('-') + ' ' + b.ngay_gio_y_lenh.split(' ')[0]);
             return dateA - dateB;
         });
-        
-        sortedTreatments.forEach(treatment => {
-            const entry = document.createElement('div');
-            entry.className = 'treatment-entry mb-3';
-            
-            const [time, date] = treatment.ngay_gio_y_lenh.split(' ');
-            const dayOfWeek = getDayOfWeek(date);
-            
-            entry.innerHTML = `
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h6 class="mb-0">${time} ${date} (${dayOfWeek}) - Tờ số: ${treatment.to_so || '1'}</h6>
-                    <small class="text-muted">${treatment.bac_si_dieu_tri}</small>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="mb-1"><strong>Diễn biến:</strong></p>
-                        <div class="bg-light p-2" style="white-space: pre-line;">${treatment.dien_bien || 'Không có'}</div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="mb-1"><strong>Chỉ định:</strong></p>
-                        <div class="bg-light p-2" style="white-space: pre-line;">${treatment.chi_dinh || 'Không có'}</div>
+
+        // Hiển thị tóm tắt diễn biến của ngày đầu tiên
+        const firstTreatment = sortedTreatments[0]; // Ngày điều trị đầu tiên
+        const [firstTime, firstDate] = firstTreatment.ngay_gio_y_lenh.split(' ');
+        const firstDayOfWeek = getDayOfWeek(firstDate);
+        const entry = document.createElement('div');
+        entry.className = 'treatment-entry mb-3';
+        entry.innerHTML = `
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h6 class="mb-0">${firstTime} ${firstDate} (${firstDayOfWeek})</h6>
+                <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
+                    <div class="bg-light p-2" style="white-space: pre-line;">
+                        ${firstTreatment.dien_bien || 'Không có'}
                     </div>
                 </div>
-            `;
-            timeline.appendChild(entry);
-        });
+            </div>
+        `;
+        timeline.appendChild(entry);
+
+        // Thêm dropdown để chọn ngày y lệnh
+        if (treatmentSelect) {
+            treatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
+            sortedTreatments.forEach(treatment => {
+                const [tTime, tDate] = treatment.ngay_gio_y_lenh.split(' ');
+                const tDayOfWeek = getDayOfWeek(tDate);
+                const option = document.createElement('option');
+                option.value = treatment.ngay_gio_y_lenh;
+                option.textContent = `${tTime} ${tDate} (${tDayOfWeek})`;
+                treatmentSelect.appendChild(option);
+            });
+
+            // Sự kiện chọn ngày y lệnh
+            treatmentSelect.addEventListener('change', function() {
+                const selectedDate = this.value;
+                timeline.innerHTML = '';
+                if (selectedDate) {
+                    const selectedTreatment = sortedTreatments.find(t => t.ngay_gio_y_lenh === selectedDate);
+                    if (selectedTreatment) {
+                        const [sTime, sDate] = selectedTreatment.ngay_gio_y_lenh.split(' ');
+                        const sDayOfWeek = getDayOfWeek(sDate);
+                        const detailEntry = document.createElement('div');
+                        detailEntry.className = 'treatment-entry mb-3';
+                        detailEntry.innerHTML = `
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="mb-0">${sTime} ${sDate} (${sDayOfWeek})</h6>
+                                <small class="text-muted">${selectedTreatment.bac_si_dieu_tri}</small>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="mb-1"><strong>Diễn biến:</strong></p>
+                                    <div class="bg-light p-2" style="white-space: pre-line;">${selectedTreatment.dien_bien || 'Không có'}</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="mb-1"><strong>Chỉ định:</strong></p>
+                                    <div class="bg-light p-2" style="white-space: pre-line;">${selectedTreatment.chi_dinh || 'Không có'}</div>
+                                </div>
+                            </div>
+                        `;
+                        timeline.appendChild(detailEntry);
+                    }
+                } else {
+                    // Quay lại tóm tắt ngày đầu tiên khi không chọn
+                    const firstTreatment = sortedTreatments[0];
+                    const [firstTime, firstDate] = firstTreatment.ngay_gio_y_lenh.split(' ');
+                    const firstDayOfWeek = getDayOfWeek(firstDate);
+                    const entry = document.createElement('div');
+                    entry.className = 'treatment-entry mb-3';
+                    entry.innerHTML = `
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="mb-0">${firstTime} ${firstDate} (${firstDayOfWeek})</h6>
+                            <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="mb-1"><strong>Diễn biến (Tóm tắt):</strong></p>
+                                <div class="bg-light p-2" style="white-space: pre-line;">
+                                    ${firstTreatment.dien_bien || 'Không có'}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    timeline.appendChild(entry);
+                }
+            });
+        }
     } else {
         timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị.</div>';
     }
-    
+
+    // Tab Xét nghiệm
+    document.getElementById('modalXetNghiemMau').textContent = truncateText(patient.xet_nghiem_mau || 'Không có', 50);
+    document.getElementById('modalXetNghiemHinhAnh').textContent = truncateText(patient.xet_nghiem_hinh_anh || 'Không có', 50);
+
     // Hiển thị modal
     const modal = new bootstrap.Modal(document.getElementById('patientModal'));
     modal.show();
+}
+
+// Hàm rút gọn văn bản
+function truncateText(text, maxLength) {
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength) + '...';
 }
 
 // Hàm chuyển đổi ngày thành thứ

@@ -152,18 +152,22 @@ function showPatientDetails(patientId) {
         return;
     }
     
-    document.getElementById('modalMaBenhNhan').textContent = patient.ma_benh_nhan;
-    document.getElementById('modalHoTen').textContent = patient.ho_ten;
-    document.getElementById('modalTuoiGioiTinh').textContent = `${patient.tuoi} / ${patient.gioi_tinh}`;
-    document.getElementById('modalKhoa').textContent = patient.khoa;
+    // Điền thông tin chung của bệnh nhân
+    document.getElementById('modalMaBenhNhan').textContent = patient.ma_benh_nhan || 'Không có';
+    document.getElementById('modalHoTen').textContent = patient.ho_ten || 'Không có';
+    document.getElementById('modalTuoiGioiTinh').textContent = `${patient.tuoi || 'Không có'} / ${patient.gioi_tinh || 'Không có'}`;
+    document.getElementById('modalKhoa').textContent = patient.khoa || 'Không có';
     document.getElementById('modalPhongGiuong').textContent = `${patient.phong || 'Không có'} / ${patient.giuong || 'Không có'}`;
-    document.getElementById('modalNgayVaoVien').textContent = patient.thoi_gian;
-    document.getElementById('modalChanDoan').textContent = patient.chan_doan;
+    document.getElementById('modalNgayVaoVien').textContent = patient.thoi_gian || 'Không có';
+    document.getElementById('modalChanDoan').textContent = patient.chan_doan || 'Không có';
 
     const timeline = document.getElementById('treatmentTimeline');
     const treatmentSelect = document.getElementById('treatmentSelect');
+    const testSelect = document.getElementById('testSelect');
+    const testResults = document.getElementById('testResults');
     timeline.innerHTML = '';
     
+    // Xử lý dữ liệu điều trị
     const newTreatmentSelect = treatmentSelect.cloneNode(true);
     treatmentSelect.parentNode.replaceChild(newTreatmentSelect, treatmentSelect);
     
@@ -182,7 +186,7 @@ function showPatientDetails(patientId) {
         entry.innerHTML = `
             <div class="d-flex justify-content-between align-items-center mb-2">
                 <h6 class="mb-0">${firstTime} ${firstDate} (${firstDayOfWeek})</h6>
-                <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
+                <small class="text-muted">${firstTreatment.bac_si_dieu_tri || 'Không có'}</small>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -219,14 +223,14 @@ function showPatientDetails(patientId) {
                         detailEntry.innerHTML = `
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h6 class="mb-0">${sTime} ${sDate} (${sDayOfWeek})</h6>
-                                <small class="text-muted">${selectedTreatment.bac_si_dieu_tri}</small>
+                                <small class="text-muted">${selectedTreatment.bac_si_dieu_tri || 'Không có'}</small>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-12">
                                     <p class="mb-1"><strong>Diễn biến:</strong></p>
                                     <div class="bg-light p-2" style="white-space: pre-line;">${selectedTreatment.dien_bien || 'Không có'}</div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-12">
                                     <p class="mb-1"><strong>Chỉ định:</strong></p>
                                     <div class="bg-light p-2" style="white-space: pre-line;">${selectedTreatment.chi_dinh || 'Không có'}</div>
                                 </div>
@@ -243,7 +247,7 @@ function showPatientDetails(patientId) {
                     entry.innerHTML = `
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <h6 class="mb-0">${firstTime} ${firstDate} (${firstDayOfWeek})</h6>
-                            <small class="text-muted">${firstTreatment.bac_si_dieu_tri}</small>
+                            <small class="text-muted">${firstTreatment.bac_si_dieu_tri || 'Không có'}</small>
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -262,16 +266,72 @@ function showPatientDetails(patientId) {
         timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị.</div>';
     }
 
-    document.getElementById('modalXetNghiemMau').textContent = truncateText(patient.xet_nghiem_mau || 'Không có', 50);
-    document.getElementById('modalXetNghiemHinhAnh').textContent = truncateText(patient.xet_nghiem_hinh_anh || 'Không có', 50);
+    // Xử lý dữ liệu xét nghiệm
+    if (testSelect && testResults) {
+        testSelect.innerHTML = '<option value="">Chọn ngày xét nghiệm</option>';
+        if (patient.tests && patient.tests.length > 0) {
+            const sortedTests = [...patient.tests].sort((a, b) => {
+                const dateA = new Date(a.ngay_xet_nghiem.split('/').reverse().join('-'));
+                const dateB = new Date(b.ngay_xet_nghiem.split('/').reverse().join('-'));
+                return dateA - dateB;
+            });
 
+            sortedTests.forEach(test => {
+                const tDayOfWeek = getDayOfWeek(test.ngay_xet_nghiem);
+                const option = document.createElement('option');
+                option.value = test.ngay_xet_nghiem;
+                option.textContent = `${test.ngay_xet_nghiem} (${tDayOfWeek})`;
+                testSelect.appendChild(option);
+            });
+
+            // Hiển thị dữ liệu xét nghiệm của ngày đầu tiên mặc định
+            const firstTest = sortedTests[0];
+            testResults.innerHTML = `
+                <p><strong>Xét nghiệm máu:</strong> <span id="modalXetNghiemMau">${firstTest.xet_nghiem_mau || 'Không có'}</span></p>
+                <p><strong>Xét nghiệm hình ảnh:</strong> <span id="modalXetNghiemHinhAnh">${firstTest.xet_nghiem_hinh_anh || 'Không có'}</span></p>
+            `;
+
+            testSelect.addEventListener('change', function() {
+                const selectedDate = this.value;
+                testResults.innerHTML = '';
+                if (selectedDate) {
+                    const selectedTest = sortedTests.find(t => t.ngay_xet_nghiem === selectedDate);
+                    if (selectedTest) {
+                        testResults.innerHTML = `
+                            <p><strong>Xét nghiệm máu:</strong> <span id="modalXetNghiemMau">${selectedTest.xet_nghiem_mau || 'Không có'}</span></p>
+                            <p><strong>Xét nghiệm hình ảnh:</strong> <span id="modalXetNghiemHinhAnh">${selectedTest.xet_nghiem_hinh_anh || 'Không có'}</span></p>
+                        `;
+                    }
+                } else {
+                    // Mặc định hiển thị dữ liệu xét nghiệm đầu tiên
+                    testResults.innerHTML = `
+                        <p><strong>Xét nghiệm máu:</strong> <span id="modalXetNghiemMau">${firstTest.xet_nghiem_mau || 'Không có'}</span></p>
+                        <p><strong>Xét nghiệm hình ảnh:</strong> <span id="modalXetNghiemHinhAnh">${firstTest.xet_nghiem_hinh_anh || 'Không có'}</span></p>
+                    `;
+                }
+            });
+        } else {
+            testResults.innerHTML = '<div class="alert alert-info">Không có dữ liệu xét nghiệm.</div>';
+        }
+    } else {
+        console.error('Không tìm thấy phần tử testSelect hoặc testResults');
+    }
+
+    // Hiển thị modal
     const modalElement = document.getElementById('patientModal');
     const modal = new bootstrap.Modal(modalElement);
     modal.show();
 
+    // Xóa dữ liệu khi modal đóng
     modalElement.addEventListener('hidden.bs.modal', function() {
         timeline.innerHTML = '';
         newTreatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
+        if (testResults) {
+            testResults.innerHTML = '<div class="alert alert-info">Không có dữ liệu xét nghiệm.</div>';
+        }
+        if (testSelect) {
+            testSelect.innerHTML = '<option value="">Chọn ngày xét nghiệm</option>';
+        }
         modal.dispose();
     }, { once: true });
 }

@@ -6,36 +6,56 @@ let dischargedPatientsData = [];
 async function loadData() {
     try {
         const response = await fetch('data.json');
+        if (!response.ok) throw new Error('Không tìm thấy data.json');
         const data = await response.json();
         
-        // Phân loại bệnh nhân đang điều trị và ra viện
-        patientsData = data; // Tạm thời coi tất cả là đang điều trị
-        dischargedPatientsData = []; // Hiện tại chưa có dữ liệu ra viện, để rỗng
+        // Lọc trùng lặp dựa trên ma_benh_nhan
+        const seenIds = new Set();
+        patientsData = (data.patients || []).filter(patient => {
+            if (seenIds.has(patient.ma_benh_nhan)) return false;
+            seenIds.add(patient.ma_benh_nhan);
+            return true;
+        });
+        dischargedPatientsData = (data.discharged || []).filter(patient => {
+            if (seenIds.has(patient.ma_benh_nhan)) return false;
+            seenIds.add(patient.ma_benh_nhan);
+            return true;
+        });
         
         renderPatientList();
         renderDischargedList();
     } catch (error) {
         console.error('Lỗi khi tải dữ liệu:', error);
-        document.getElementById('patientList').innerHTML = 
-            '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
-        document.getElementById('dischargedList').innerHTML = 
-            '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
+        const patientList = document.getElementById('patientList');
+        const dischargedList = document.getElementById('dischargedList');
+        if (patientList) {
+            patientList.innerHTML = 
+                '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
+        }
+        if (dischargedList) {
+            dischargedList.innerHTML = 
+                '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
+        }
     }
 }
 
 // Hàm hiển thị danh sách bệnh nhân đang điều trị
 function renderPatientList(filter = '') {
     const container = document.getElementById('patientList');
+    if (!container) {
+        console.error('Không tìm thấy phần tử với id="patientList"');
+        return;
+    }
     container.innerHTML = '';
     
     const filteredPatients = patientsData.filter(patient => {
         const searchTerm = filter.toLowerCase();
         return (
-            patient.ma_benh_nhan.toLowerCase().includes(searchTerm) ||
-            patient.ho_ten.toLowerCase().includes(searchTerm) ||
-            patient.chan_doan.toLowerCase().includes(searchTerm) ||
-            patient.phong.toLowerCase().includes(searchTerm) ||
-            patient.giuong.toLowerCase().includes(searchTerm)
+            (patient.ma_benh_nhan || '').toLowerCase().includes(searchTerm) ||
+            (patient.ho_ten || '').toLowerCase().includes(searchTerm) ||
+            (patient.chan_doan || '').toLowerCase().includes(searchTerm) ||
+            (patient.phong || '').toLowerCase().includes(searchTerm) ||
+            (patient.giuong || '').toLowerCase().includes(searchTerm)
         );
     });
     
@@ -50,13 +70,13 @@ function renderPatientList(filter = '') {
         card.innerHTML = `
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h6>${patient.ho_ten}</h6>
+                    <h6>${patient.ho_ten || 'Không có tên'}</h6>
                     <p class="mb-1"><strong>Mã BN:</strong> ${patient.ma_benh_nhan}</p>
                     <p class="mb-1"><strong>Tuổi/Giới tính:</strong> ${patient.tuoi}/${patient.gioi_tinh}</p>
                     <p class="mb-1"><strong>Chẩn đoán:</strong> ${patient.chan_doan}</p>
                 </div>
                 <div class="text-end">
-                    <p class="mb-1"><strong>Phòng/Giường:</strong> ${patient.phong}/${patient.giuong}</p>
+                    <p class="mb-1"><strong>Phòng/Giường:</strong> ${patient.phong || 'Không có'}/${patient.giuong || 'Không có'}</p>
                     <p class="mb-1"><strong>Ngày vào viện:</strong> ${patient.thoi_gian.split(' ')[0]}</p>
                     <button class="btn btn-sm btn-primary view-details" data-id="${patient.ma_benh_nhan}">Xem chi tiết</button>
                 </div>
@@ -65,7 +85,6 @@ function renderPatientList(filter = '') {
         container.appendChild(card);
     });
     
-    // Thêm sự kiện click cho nút xem chi tiết
     document.querySelectorAll('.view-details').forEach(button => {
         button.addEventListener('click', function() {
             const patientId = this.getAttribute('data-id');
@@ -77,16 +96,20 @@ function renderPatientList(filter = '') {
 // Hàm hiển thị danh sách bệnh nhân ra viện
 function renderDischargedList(filter = '') {
     const container = document.getElementById('dischargedList');
+    if (!container) {
+        console.error('Không tìm thấy phần tử với id="dischargedList"');
+        return;
+    }
     container.innerHTML = '';
     
     const filteredPatients = dischargedPatientsData.filter(patient => {
         const searchTerm = filter.toLowerCase();
         return (
-            patient.ma_benh_nhan.toLowerCase().includes(searchTerm) ||
-            patient.ho_ten.toLowerCase().includes(searchTerm) ||
-            patient.chan_doan.toLowerCase().includes(searchTerm) ||
-            patient.phong.toLowerCase().includes(searchTerm) ||
-            patient.giuong.toLowerCase().includes(searchTerm)
+            (patient.ma_benh_nhan || '').toLowerCase().includes(searchTerm) ||
+            (patient.ho_ten || '').toLowerCase().includes(searchTerm) ||
+            (patient.chan_doan || '').toLowerCase().includes(searchTerm) ||
+            (patient.phong || '').toLowerCase().includes(searchTerm) ||
+            (patient.giuong || '').toLowerCase().includes(searchTerm)
         );
     });
     
@@ -101,13 +124,13 @@ function renderDischargedList(filter = '') {
         card.innerHTML = `
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h6>${patient.ho_ten}</h6>
+                    <h6>${patient.ho_ten || 'Không có tên'}</h6>
                     <p class="mb-1"><strong>Mã BN:</strong> ${patient.ma_benh_nhan}</p>
                     <p class="mb-1"><strong>Tuổi/Giới tính:</strong> ${patient.tuoi}/${patient.gioi_tinh}</p>
                     <p class="mb-1"><strong>Chẩn đoán:</strong> ${patient.chan_doan}</p>
                 </div>
                 <div class="text-end">
-                    <p class="mb-1"><strong>Phòng/Giường:</strong> ${patient.phong}/${patient.giuong}</p>
+                    <p class="mb-1"><strong>Phòng/Giường:</strong> ${patient.phong || 'Không có'}/${patient.giuong || 'Không có'}</p>
                     <p class="mb-1"><strong>Ngày vào viện:</strong> ${patient.thoi_gian.split(' ')[0]}</p>
                     <button class="btn btn-sm btn-primary view-details" data-id="${patient.ma_benh_nhan}">Xem chi tiết</button>
                 </div>
@@ -116,7 +139,6 @@ function renderDischargedList(filter = '') {
         container.appendChild(card);
     });
     
-    // Thêm sự kiện click cho nút xem chi tiết
     document.querySelectorAll('.view-details').forEach(button => {
         button.addEventListener('click', function() {
             const patientId = this.getAttribute('data-id');
@@ -128,32 +150,31 @@ function renderDischargedList(filter = '') {
 // Hàm hiển thị chi tiết bệnh nhân trong modal
 function showPatientDetails(patientId) {
     const patient = [...patientsData, ...dischargedPatientsData].find(p => p.ma_benh_nhan === patientId);
-    if (!patient) return;
+    if (!patient) {
+        console.error('Không tìm thấy bệnh nhân với ID:', patientId);
+        return;
+    }
     
-    // Điền thông tin cơ bản
     document.getElementById('modalMaBenhNhan').textContent = patient.ma_benh_nhan;
     document.getElementById('modalHoTen').textContent = patient.ho_ten;
-    document.getElementById('modalTuoiGioiTinh').textContent = `${patient.tuoi} tuổi / ${patient.gioi_tinh}`;
+    document.getElementById('modalTuoiGioiTinh').textContent = `${patient.tuoi} / ${patient.gioi_tinh}`;
     document.getElementById('modalKhoa').textContent = patient.khoa;
-    document.getElementById('modalPhongGiuong').textContent = `${patient.phong} / ${patient.giuong}`;
+    document.getElementById('modalPhongGiuong').textContent = `${patient.phong || 'Không có'} / ${patient.giuong || 'Không có'}`;
     document.getElementById('modalNgayVaoVien').textContent = patient.thoi_gian;
     document.getElementById('modalChanDoan').textContent = patient.chan_doan;
 
-    // Tab Diễn biến điều trị
     const timeline = document.getElementById('treatmentTimeline');
     const treatmentSelect = document.getElementById('treatmentSelect');
     timeline.innerHTML = '';
     
     if (patient.treatments && patient.treatments.length > 0) {
-        // Sắp xếp theo thời gian
         const sortedTreatments = [...patient.treatments].sort((a, b) => {
             const dateA = new Date(a.ngay_gio_y_lenh.split(' ')[1].split('/').reverse().join('-') + ' ' + a.ngay_gio_y_lenh.split(' ')[0]);
             const dateB = new Date(b.ngay_gio_y_lenh.split(' ')[1].split('/').reverse().join('-') + ' ' + b.ngay_gio_y_lenh.split(' ')[0]);
             return dateA - dateB;
         });
 
-        // Hiển thị tóm tắt diễn biến của ngày đầu tiên
-        const firstTreatment = sortedTreatments[0]; // Ngày điều trị đầu tiên
+        const firstTreatment = sortedTreatments[0];
         const [firstTime, firstDate] = firstTreatment.ngay_gio_y_lenh.split(' ');
         const firstDayOfWeek = getDayOfWeek(firstDate);
         const entry = document.createElement('div');
@@ -174,7 +195,6 @@ function showPatientDetails(patientId) {
         `;
         timeline.appendChild(entry);
 
-        // Thêm dropdown để chọn ngày y lệnh
         if (treatmentSelect) {
             treatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
             sortedTreatments.forEach(treatment => {
@@ -186,7 +206,6 @@ function showPatientDetails(patientId) {
                 treatmentSelect.appendChild(option);
             });
 
-            // Sự kiện chọn ngày y lệnh
             treatmentSelect.addEventListener('change', function() {
                 const selectedDate = this.value;
                 timeline.innerHTML = '';
@@ -216,7 +235,6 @@ function showPatientDetails(patientId) {
                         timeline.appendChild(detailEntry);
                     }
                 } else {
-                    // Quay lại tóm tắt ngày đầu tiên khi không chọn
                     const firstTreatment = sortedTreatments[0];
                     const [firstTime, firstDate] = firstTreatment.ngay_gio_y_lenh.split(' ');
                     const firstDayOfWeek = getDayOfWeek(firstDate);
@@ -244,11 +262,9 @@ function showPatientDetails(patientId) {
         timeline.innerHTML = '<div class="alert alert-info">Không có dữ liệu điều trị.</div>';
     }
 
-    // Tab Xét nghiệm
     document.getElementById('modalXetNghiemMau').textContent = truncateText(patient.xet_nghiem_mau || 'Không có', 50);
     document.getElementById('modalXetNghiemHinhAnh').textContent = truncateText(patient.xet_nghiem_hinh_anh || 'Không có', 50);
 
-    // Hiển thị modal
     const modal = new bootstrap.Modal(document.getElementById('patientModal'));
     modal.show();
 }

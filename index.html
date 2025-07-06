@@ -8,17 +8,7 @@
 <body>
     <div class="container">
         <h1>Quản lý bệnh nhân</h1>
-        <div class="row mb-3">
-            <div class="col-md-6">
-                <input type="text" id="searchInput" class="form-control" placeholder="Tìm kiếm theo tên bệnh nhân...">
-            </div>
-            <div class="col-md-3">
-                <select id="sortSelect" class="form-select">
-                    <option value="ho_ten">Sắp xếp theo tên</option>
-                    <option value="phong">Sắp xếp theo số buồng</option>
-                </select>
-            </div>
-        </div>
+        <input type="text" id="searchInput" class="form-control mb-3" placeholder="Tìm kiếm bệnh nhân...">
         <ul class="nav nav-tabs">
             <li class="nav-item">
                 <a class="nav-link active" id="dang-dieu-tri-tab" href="#">Đang điều trị</a>
@@ -47,16 +37,16 @@
                     <p><strong>Phòng/Giường:</strong> <span id="modalPhongGiuong"></span></p>
                     <p><strong>Ngày vào viện:</strong> <span id="modalNgayVaoVien"></span></p>
                     <p><strong>Chẩn đoán:</strong> <span id="modalChanDoan"></span></p>
-                    <ul class="nav nav-tabs" id="modalTabs">
+                    <ul class="nav nav-tabs">
                         <li class="nav-item">
-                            <a class="nav-link" href="#dien-bien" data-bs-toggle="tab">Diễn biến điều trị</a>
+                            <a class="nav-link active" href="#dien-bien" data-bs-toggle="tab">Diễn biến điều trị</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#xet-nghiem" data-bs-toggle="tab">Xét nghiệm</a>
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <div class="tab-pane" id="dien-bien">
+                        <div class="tab-pane active" id="dien-bien">
                             <select id="treatmentSelect" class="form-select mb-3"></select>
                             <div id="treatmentTimeline"></div>
                         </div>

@@ -24,7 +24,6 @@ async function loadData() {
         
         renderPatientList();
         renderDischargedList();
-        attachViewDetailsEvents();
     } catch (error) {
         console.error('Lỗi khi tải dữ liệu:', error);
         const patientList = document.getElementById('patientList');
@@ -38,16 +37,6 @@ async function loadData() {
                 '<div class="alert alert-danger">Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
         }
     }
-}
-
-// Hàm gắn sự kiện click cho các nút view-details
-function attachViewDetailsEvents() {
-    document.body.addEventListener('click', function(event) {
-        if (event.target.classList.contains('view-details')) {
-            const patientId = event.target.getAttribute('data-id');
-            showPatientDetails(patientId);
-        }
-    });
 }
 
 // Hàm hiển thị danh sách bệnh nhân đang điều trị
@@ -94,6 +83,13 @@ function renderPatientList(filter = '') {
             </div>
         `;
         container.appendChild(card);
+    });
+    
+    document.querySelectorAll('.view-details').forEach(button => {
+        button.addEventListener('click', function() {
+            const patientId = this.getAttribute('data-id');
+            showPatientDetails(patientId);
+        });
     });
 }
 
@@ -142,6 +138,13 @@ function renderDischargedList(filter = '') {
         `;
         container.appendChild(card);
     });
+    
+    document.querySelectorAll('.view-details').forEach(button => {
+        button.addEventListener('click', function() {
+            const patientId = this.getAttribute('data-id');
+            showPatientDetails(patientId);
+        });
+    });
 }
 
 // Hàm hiển thị chi tiết bệnh nhân trong modal
@@ -163,9 +166,6 @@ function showPatientDetails(patientId) {
     const timeline = document.getElementById('treatmentTimeline');
     const treatmentSelect = document.getElementById('treatmentSelect');
     timeline.innerHTML = '';
-    
-    const newTreatmentSelect = treatmentSelect.cloneNode(true);
-    treatmentSelect.parentNode.replaceChild(newTreatmentSelect, treatmentSelect);
     
     if (patient.treatments && patient.treatments.length > 0) {
         const sortedTreatments = [...patient.treatments].sort((a, b) => {
@@ -195,18 +195,18 @@ function showPatientDetails(patientId) {
         `;
         timeline.appendChild(entry);
 
-        if (newTreatmentSelect) {
-            newTreatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
+        if (treatmentSelect) {
+            treatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
             sortedTreatments.forEach(treatment => {
                 const [tTime, tDate] = treatment.ngay_gio_y_lenh.split(' ');
                 const tDayOfWeek = getDayOfWeek(tDate);
                 const option = document.createElement('option');
                 option.value = treatment.ngay_gio_y_lenh;
                 option.textContent = `${tTime} ${tDate} (${tDayOfWeek})`;
-                newTreatmentSelect.appendChild(option);
+                treatmentSelect.appendChild(option);
             });
 
-            newTreatmentSelect.addEventListener('change', function() {
+            treatmentSelect.addEventListener('change', function() {
                 const selectedDate = this.value;
                 timeline.innerHTML = '';
                 if (selectedDate) {
@@ -265,15 +265,8 @@ function showPatientDetails(patientId) {
     document.getElementById('modalXetNghiemMau').textContent = truncateText(patient.xet_nghiem_mau || 'Không có', 50);
     document.getElementById('modalXetNghiemHinhAnh').textContent = truncateText(patient.xet_nghiem_hinh_anh || 'Không có', 50);
 
-    const modalElement = document.getElementById('patientModal');
-    const modal = new bootstrap.Modal(modalElement);
+    const modal = new bootstrap.Modal(document.getElementById('patientModal'));
     modal.show();
-
-    modalElement.addEventListener('hidden.bs.modal', function() {
-        timeline.innerHTML = '';
-        newTreatmentSelect.innerHTML = '<option value="">Chọn ngày y lệnh</option>';
-        modal.dispose();
-    }, { once: true });
 }
 
 // Hàm rút gọn văn bản

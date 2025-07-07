@@ -287,8 +287,10 @@ function showPatientDetails(patientId) {
             // Hiển thị dữ liệu xét nghiệm của ngày đầu tiên mặc định
             const firstTest = sortedTests[0];
             testResults.innerHTML = `
-                <p><strong>Xét nghiệm máu:</strong> <span id="modalXetNghiemMau">${firstTest.xet_nghiem_mau || 'Không có'}</span></p>
-                <p><strong>Xét nghiệm hình ảnh:</strong> <span id="modalXetNghiemHinhAnh">${firstTest.xet_nghiem_hinh_anh || 'Không có'}</span></p>
+                <p><strong>Xét nghiệm máu:</strong></p>
+                <pre class="bg-light p-2" style="white-space: pre-wrap;">${firstTest.xet_nghiem_mau || 'Không có'}</pre>
+                <p><strong>Xét nghiệm hình ảnh:</strong></p>
+                <pre class="bg-light p-2" style="white-space: pre-wrap;">${firstTest.xet_nghiem_hinh_anh || 'Không có'}</pre>
             `;
 
             testSelect.addEventListener('change', function() {
@@ -298,15 +300,19 @@ function showPatientDetails(patientId) {
                     const selectedTest = sortedTests.find(t => t.ngay_xet_nghiem === selectedDate);
                     if (selectedTest) {
                         testResults.innerHTML = `
-                            <p><strong>Xét nghiệm máu:</strong> <span id="modalXetNghiemMau">${selectedTest.xet_nghiem_mau || 'Không có'}</span></p>
-                            <p><strong>Xét nghiệm hình ảnh:</strong> <span id="modalXetNghiemHinhAnh">${selectedTest.xet_nghiem_hinh_anh || 'Không có'}</span></p>
+                            <p><strong>Xét nghiệm máu:</strong></p>
+                            <pre class="bg-light p-2" style="white-space: pre-wrap;">${selectedTest.xet_nghiem_mau || 'Không có'}</pre>
+                            <p><strong>Xét nghiệm hình ảnh:</strong></p>
+                            <pre class="bg-light p-2" style="white-space: pre-wrap;">${selectedTest.xet_nghiem_hinh_anh || 'Không có'}</pre>
                         `;
                     }
                 } else {
                     // Mặc định hiển thị dữ liệu xét nghiệm đầu tiên
                     testResults.innerHTML = `
-                        <p><strong>Xét nghiệm máu:</strong> <span id="modalXetNghiemMau">${firstTest.xet_nghiem_mau || 'Không có'}</span></p>
-                        <p><strong>Xét nghiệm hình ảnh:</strong> <span id="modalXetNghiemHinhAnh">${firstTest.xet_nghiem_hinh_anh || 'Không có'}</span></p>
+                        <p><strong>Xét nghiệm máu:</strong></p>
+                        <pre class="bg-light p-2" style="white-space: pre-wrap;">${firstTest.xet_nghiem_mau || 'Không có'}</pre>
+                        <p><strong>Xét nghiệm hình ảnh:</strong></p>
+                        <pre class="bg-light p-2" style="white-space: pre-wrap;">${firstTest.xet_nghiem_hinh_anh || 'Không có'}</pre>
                     `;
                 }
             });

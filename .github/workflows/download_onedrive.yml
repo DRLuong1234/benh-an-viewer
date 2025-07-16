@@ -31,7 +31,7 @@ jobs:
       # "path/to/your/data.json" là đường dẫn đến file trong OneDrive
       # "." có nghĩa là tải về thư mục gốc của repo
       - name: Download file from OneDrive
-        run: rclone copy "MyOneDrive:Documents/data.json" . -P
+        run: rclone copy "Drluong:Benhanviewer/data.json" . -P
         
       # (TÙY CHỌN) Bước 4: Commit và đẩy file đã tải về lên repo
       - name: Commit and push if changed

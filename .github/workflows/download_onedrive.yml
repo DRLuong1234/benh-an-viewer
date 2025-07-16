@@ -1,0 +1,47 @@
+# Tên của workflow
+name: Download Data from OneDrive
+
+# Sự kiện kích hoạt
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  download-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Bước 1: Checkout mã nguồn
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Bước 2: Cài đặt và cấu hình Rclone
+      # Sử dụng một action có sẵn để đơn giản hóa việc cài đặt
+      - name: Setup Rclone
+        uses: rclone/rclone-action@v1.4
+        with:
+          # Ghi nội dung của secret vào file cấu hình của rclone
+          rclone_config: ${{ secrets.RCLONE_CONF }}
+
+      # Bước 3: Tải file từ OneDrive
+      # Thay "MyOneDrive:path/to/your/data.json" bằng đường dẫn thực tế
+      # "MyOneDrive" là tên remote bạn đặt ở Giai đoạn 1
+      # "path/to/your/data.json" là đường dẫn đến file trong OneDrive
+      # "." có nghĩa là tải về thư mục gốc của repo
+      - name: Download file from OneDrive
+        run: rclone copy "MyOneDrive:Documents/data.json" . -P
+        
+      # (TÙY CHỌN) Bước 4: Commit và đẩy file đã tải về lên repo
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          if ! git diff --staged --quiet; then
+            git commit -m "Update data from OneDrive"
+            git push
+          else
+            echo "No changes to commit."
+          fi

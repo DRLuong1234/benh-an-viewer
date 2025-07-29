@@ -1,302 +1,14 @@
 {
   "patients": [
     {
-      "ma_benh_nhan": "2500128283",
-      "ho_ten": "PHAN MINH TRIỆN",
-      "tuoi": "77 tuổi",
-      "gioi_tinh": "Nam",
-      "dia_chi": "Thôn 8-Xã Nam Trạch--Tỉnh Quảng Trị",
-      "khoa": "Ung bướu",
-      "phong": "Buồng 6",
-      "giuong": "H050",
-      "chan_doan": "Ung thư gan giai đoạn B",
-      "thoi_gian": "14/07/2025 08:30",
-      "treatments": [
-        {
-          "ngay_gio_y_lenh": "08:30 14/07/2025",
-          "ngay_dien_bien": "14/07/2025",
-          "gio_dien_bien": "08:30",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Bệnh nhân được chẩn đoán xác định Ung thư gan giai đoạn B đã nút mạch 1 lần  tại khoa ngoại TH. Mấy ngày nay đau bụng nhiều, buồn nôn, ăn uống kém chưa điều trị gì xin nhập viện điều trị.\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan giai đoạn B",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h30\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h30 - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h30 - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h30\nCS: 03 \nBT18\n- Tổng phân tích tế bào máu ngoại vi.\n- Creatinin, glucose, protein, albumin, billirubin toàn phần, billirubin trực tiếp, AFP GPT, GOT, điện giải đồ (Na, K, Cl). .\n- Đông máu: Thời gian prothrombin, fibrinogen, thời gian thromboplastin, thời gian thrombin.\n- Siêu âm bụng.\n- Xq ngực thẳng.\n- Điện tim thường (ECG).\n- Siêu âm tim.\n- 10 thông số nước tiểu."
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 15/07/2025",
-          "ngay_dien_bien": "15/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 16/07/2025",
-          "ngay_dien_bien": "16/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 17/07/2025",
-          "ngay_dien_bien": "17/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 18/07/2025",
-          "ngay_dien_bien": "18/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 19/07/2025",
-          "ngay_dien_bien": "19/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 20/07/2025",
-          "ngay_dien_bien": "20/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 21/07/2025",
-          "ngay_dien_bien": "21/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 22/07/2025",
-          "ngay_dien_bien": "22/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "3",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 23/07/2025",
-          "ngay_dien_bien": "23/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "4",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(1) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 24/07/2025",
-          "ngay_dien_bien": "24/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "4",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(2) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 25/07/2025",
-          "ngay_dien_bien": "25/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "5",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(3) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 26/07/2025",
-          "ngay_dien_bien": "26/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "5",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(4) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 27/07/2025",
-          "ngay_dien_bien": "27/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "6",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(5) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 28/07/2025",
-          "ngay_dien_bien": "28/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "6",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Bệnh nhân ung thư gan giai đoạn B vào nút mạch gan + nội khoa giảm nhẹ hiện tại ổn định\nΔ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ\n-> Đề nghị cho ra viện",
-          "chi_dinh": "- Làm thủ tục ra viện\n- Hẹn tái khám 2 tháng\n- Thuốc ngoại trú\nSaVi Tenofovir 300mg                           x     07 Viên \n                     Tiêm tĩnh mạch chậm 8h"
-        }
-      ],
-      "tests": [
-        {
-          "ngay_xet_nghiem": "14/07/2025",
-          "xet_nghiem_mau": "Định lượng Protein toàn phần [Máu](66 - 87): 69,4\nĐo hoạt độ ALT (GPT) [Máu](< 41.0): 22\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 36,3\nĐịnh lượng Bilirubin trực tiếp [Máu](0 - 4,3): 2,2\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 17,4\nĐịnh lượng Creatinin (máu)\nĐịnh lượng Creatinin (máu) (62 - 106): 98\neGFR: 63.89\nĐịnh lượng Albumin [Máu](35 - 52): 42,5\nĐiện giải đồ (Na, K, Cl) [Máu]\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 140,3\nK+ (3,5 - 5,1): 3,42\nCl- (98 - 107): 102,72\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 1.78\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 11,2\nTỷ lệ Prothrombin (70-140): 92,9\nINR (0.80 - 1.20): 1,07\nThời gian thromboplastin một phần hoạt hóa (APTT: Activated Partial Thromboplastin Time), (Tên khác: TCK) bằng máy tự động\nThời gian thromboplastin một phần hoạt hoá (APTT: Activated Partial Thromboplastin Time), (Tên khác: TCK) bằng máy tự động: 27,3\nrAPTT (bệnh/chứng) (0.85 - 1.25): 1,03\nThời gian thrombin (TT: Thrombin Time) bằng máy tự động\nThời gian thrombin (TT: Thrombin Time) bằng máy tự động: 17,9\nrTT (bệnh/chứng) (0.85 - 1.25): 0,99\nĐịnh lượng Fibrinogen (Tên khác: Định lượng yếu tố I), phương pháp Clauss- phương pháp trực tiếp, bằng máy tự động(2 - 4): 3,64\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 5.7\nNEU# (2,1 - 6,1): 4.1\nNEU% (50 - 70): 72.1\nLYM# (1,3 - 3,5): 0.9\nLYM% (20 - 44): 15.4\nMONO# (0,3 - 0,8): 0.51\nMONO% (5,1 - 9): 8.90\nEOS# (<= 0,5): 0.18\nEOS% (0,9 - 4): 3.20\nBASO# (<= 0,2): 0.02\nBASO% (0,3 - 1,5): 0.40\nRBC (4,38 - 5,77): 4.47\nHGB (136 - 172): 135\nHCT (40 - 50): 41.4\nMCV (80,7 - 95,5): 92.6\nMCH (27,2 - 33,5): 30.2\nMCHC (327 - 356): 326\nRDW (11 - 13,4): 14.2\nPLT (156 - 373): 154\nMPV (7,4 - 12): 11.4\nPCT (0,17 - 0,35): 0.18\nPDW: 12.0\nLUC% (0 - 4): 0.0\nLUC#: 0.0\nTổng phân tích nước tiểu (Bằng máy tự động)\nTổng phân tích nước tiểu (Bằng máy tự động): \nSG (1,005 - 1,025): 1.026\npH (4,8 - 8): 6\nURO (Normal): 17\nLEU (Negative): neg\nNIT (Negative): neg\nPRO (Negative): 0.25\nGLU (Normal): norm\nKET (Negative): neg\nBIL (Negative): 17\nERY (<= 5): neg\nĐịnh lượng Glucose [Máu](4,11 - 5,89): 4,5",
-          "xet_nghiem_hinh_anh": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang): \nMô tả\nĐọc kết quả\n- Gan: Nhu mô gan HPT III có cấu trúc hồi âm hỗn hợp, kích thước 23x26mm, bên trong lắng đọng vật liệu nút mạch. HPT VII có cấu trúc hồi âm hỗn hợp, kích thước 22x21mm, bên trong lắng đọng vật liệu nút mạch. \n- Tĩnh mạch cửa không giãn.\t\n- Đường mật: Đường mật trong và ngoài gan không giãn, không có sỏi.\t\n- Túi mật: Không to, dịch trong, thành mỏng đều, không có sỏi.\t\n- Tụy: Nhu mô đồng nhất kích thước bình thường, ống wirsung không giãn.\t\n- Lách: Nhu mô đồng nhất kích thước bình thường.\t\n- Thận phải: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ.\t\nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Thận trái: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ, \nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Bàng Quang: Không có nước tiểu \n- Tiền liệt tuyến: Khó khảo sát \n- Dịch ổ bụng: Không có dịch.\t\n* Ghi chú: \nKết luận\nHình ảnh u gan sau TACE."
-        },
-        {
-          "ngay_xet_nghiem": "15/07/2025",
-          "xet_nghiem_mau": "",
-          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT ổ bụng trên máy 128 dãy trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MPR, MIP.\nMô tả: Bn HCC đa ổ gan (P) & (T) (xn 24/2/25: VGB (+), AFP 25), sau nút mạch (TACE1 03/3/2025), Hiện tại thấy: \n- Gan\n+ HCC đa ổ: gan (P) phân thùy sau # 30mm và Hpt IV # 45 x 37mm sau nút mạch lần 1 đã ngấm vật liệu nút mạch tốt, bán phần, phần còn lại của 2 u chưa nút hết, nằm xen kẽ, vùng rìa giàu mạch, ngấm thuốc cản quang mạnh thì động mạch, thải nhanh thì tĩnh mạch. \n+ Nhu mô gan không to, bờ mấp mô đều, nhu mô thô không đồng nhất.\n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi tăng tỉ trọng\n- Tụy, lách, thận 2 bên không phát hiện tổn thương dặc hiệu. Thận (T) có nang 20mm. \n- Ổ bụng không thấy hạch to, không thấy dịch tự do. \nKết luận\n- HCC ĐA Ổ GAN (P) & (T) THUYÊN GIẢM BÁN PHẦN SAU NÚT MẠCH LẦN I - T3/2025.\n- PHẦN CÒN LẠI GIÀU MẠCH, NGẤM THUỐC CẢN QUANG MANH\n- XƠ GAN - NANG ĐƠN THUẦN THẬN T\nĐề nghị\nHỘI CHẨN XÉT NÚT MẠCH PHẦN U CÒN LẠI"
-        }
-      ],
-      "hoi_chan": {
-        "de_xuat_cua": "Ung Bướu",
-        "hc_khoa": false,
-        "hc_lienkhoa": true,
-        "hc_toanvien": false,
-        "hc_lienbenhvien": false,
-        "hc_khac": "",
-        "thoi_gian_hc_gio": "08",
-        "thoi_gian_hc_phut": "00",
-        "thoi_gian_hc_ngay": "21/07/2025",
-        "dia_diem_hc": "Khoa Ung Bướu",
-        "chu_toa": "Bs Bùi Vĩ Nhân",
-        "thu_ky": "Bs Trương Quang Lương",
-        "ly_do_hc": "Nút mạch gan",
-        "thanh_vien": "Bs Nguyễn Đức Hùng",
-        "tom_tat_tinh_trang": "Bệnh nhân tiền sử ung thư gan giai đoạn B đã nút mạch 1 lần (T5/2025) nay vào nút mạch lần 2 theo hẹn\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Tim phổi chưa nghe bệnh lý\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- HBsAg (+), AFP: 1,78 IU/ml\n- CT: - HCC ĐA Ổ GAN (P) & (T) THUYÊN GIẢM BÁN PHẦN SAU NÚT MẠCH LẦN I - T3/2025.\n- PHẦN CÒN LẠI GIÀU MẠCH, NGẤM THUỐC CẢN QUANG MANH\n- XƠ GAN - NANG ĐƠN THUẦN THẬN T",
-        "van_de_hc": "Δ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ",
-        "ket_luan_hc": "Δ: Ung thư gan giai đoạn B\nPTV: Bs Nguyễn Đức Hùng"
-      }
-    },
-    {
-      "ma_benh_nhan": "2500133518",
-      "ho_ten": "HUỲNH MINH KHÔI",
-      "tuoi": "70 tuổi",
-      "gioi_tinh": "Nam",
-      "dia_chi": "Thôn Nam-Xã Bố Trạch--Tỉnh Quảng Trị",
-      "khoa": "Ung bướu",
-      "phong": "Buồng 3",
-      "giuong": "H019",
-      "chan_doan": "Ung thư gan giai đoạn C",
-      "thoi_gian": "21/07/2025 11:00",
-      "treatments": [
-        {
-          "ngay_gio_y_lenh": "11:00 21/07/2025",
-          "ngay_dien_bien": "21/07/2025",
-          "gio_dien_bien": "11:00",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Khởi bệnh khoảng T3/2024 phát hiện ung thư gan (GPB: Ung thư gan biệt hóa tốt, VGB (-), AFP: 8) được chỉ định nút mạch gan điều trị. Tháng 12 năm 2024 tái khám phát hiện u tăng sinh mạch tại rìa được nhập viện nút mạch lần 2. Tháng 7 năm 2025 nuốt nghẹn nhiều đi khám phát hiện u thực quản được sinh thiết tổn thương kết quản: Ung thư biểu mô vảy không sừng hóa. Mấy ngày nay nuốt nghẹn nhiều, ăn uống kém lo lắng nên nhập viện \nTS: Viên gan B\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan giai đoạn C - Ung thư thực quản \nTL: Nặng",
-          "chi_dinh": ""
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 22/07/2025",
-          "ngay_dien_bien": "22/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(1) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 23/07/2025",
-          "ngay_dien_bien": "23/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "2",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(2) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 24/07/2025",
-          "ngay_dien_bien": "24/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "3",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(3) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 25/07/2025",
-          "ngay_dien_bien": "25/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "3",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(4) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 26/07/2025",
-          "ngay_dien_bien": "26/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "4",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(5) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 27/07/2025",
-          "ngay_dien_bien": "27/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "4",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucolyte -2 500ml                           x     01 Chai\n                     Truyền TM XL g/p \n(6) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 28/07/2025",
-          "ngay_dien_bien": "28/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "5",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucolyte -2 500ml                           x     01 Chai\n                     Truyền TM XL g/p \n(7) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
-        },
-        {
-          "ngay_gio_y_lenh": "08:00 29/07/2025",
-          "ngay_dien_bien": "29/07/2025",
-          "gio_dien_bien": "08:00",
-          "to_so": "5",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucolyte -2 500ml                           x     01 Chai\n                     Truyền TM XL g/p \n(8) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      03 Viên\n                     Uống 1 viên/lần * 3 lần/ngày: 8h-16h-23h\nCS: 02 \nBT18"
-        }
-      ],
-      "tests": [
-        {
-          "ngay_xet_nghiem": "15/07/2025",
-          "xet_nghiem_mau": "Định lượng Protein toàn phần [Máu](66 - 87): 69,0\nĐo hoạt độ ALT (GPT) [Máu](< 41.0): 10\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 68,5\nĐịnh lượng Bilirubin trực tiếp [Máu](0 - 4,3): 9.1\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 22,7\nĐịnh lượng Creatinin (máu)\nĐịnh lượng Creatinin (máu) (62 - 106): 76\neGFR: 87.96\nĐịnh lượng Albumin [Máu](35 - 52): 32,2\nĐiện giải đồ (Na, K, Cl) [Máu]\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 138,6\nK+ (3,5 - 5,1): 4,16\nCl- (98 - 107): 112,54\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 5.85\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 12,0\nTỷ lệ Prothrombin (70-140): 90\nINR (0.80 - 1.20): 1,07\n------------------------------------------------------------------------------------------------\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 5,0\nNEU# (2,1 - 6,1): 2,9\nNEU% (50 - 70): 57,7\nLYM# (1,3 - 3,5): 1,7\nLYM% (20 - 44): 33,0\nMONO# (0,3 - 0,8): 0,32\nMONO% (5,1 - 9): 6,30\nEOS# (<= 0,5): 0,14\nEOS% (0,9 - 4): 2,80\nBASO# (<= 0,2): 0,01\nBASO% (0,3 - 1,5): 0,20\nRBC (4,38 - 5,77): 4,05\nHGB (136 - 172): 134\nHCT (40 - 50): 40,9\nMCV (80,7 - 95,5): 100,8\nMCH (27,2 - 33,5): 33,1\nMCHC (327 - 356): 328\nRDW (11 - 13,4): 14,4\nPLT (156 - 373): 72\nMPV (7,4 - 12): 9,1\nPCT (0,17 - 0,35): 0,07\nPDW: 17,7\nLUC% (0 - 4): 0,8\nLUC#: 0,0",
-          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (bao gồm mạch: gan, tụy, lách và mạch khối u) (từ 64-128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT tầng trên ổ bụng có khảo sát mạch máu tạng bằng máy CT Scan SIEMENS 128 slices trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MPR, MIP và các phần mềm ứng dụng khác. \nMô tả: Bn HCC/xơ gan, VGB (-), AFP (-), Biopsy (+) HCC 3/2024. TACE gần nhất T12/2024, so sánh với phim chụp làn trước, ngày 17/3/25, hiện tại thấy:\n- Gan teo, bờ mấp mô đều, nhu mô thô không đồng nhất. HCC gan (T), khối lớn # 6cm và khối nhỏ # 4.8cm đã TACE 2 lần - T3-12/2024, hiện tại hoại tử phần lớn, phần rìa chưa nút hết, tăng ngấm thuốc hình viền, chỗ dày nhất # 8mm nay tăng lên # 25mm \n- Tĩnh mạch cửa không giãn, không thấy huyết khối. Giãn lớn tĩnh mạch thực quản và tm phình vị\n- Đường mật trong và ngoài gan không giãn, không thấy sỏi tăng tỷ trọng.\n- Túi mật không giãn, thành mỏng, không thấy sỏi tăng tỷ trọng, xung quanh có ít dịch. \n- Tuỵ, thận hai bên chưa phát hiện tổn thương đặc hiệu. \n- Lách hơi lớn, nhu mô đồng nhất.\n- Ổ bụng không thấy hạch to, ít dịch dưới bao gan 15mm.\n* Lưu ý: đoạn cuối thực quản - tâm vị: có hình ảnh dày - sùi bất thường, lồi vào lòng, gây hẹp khít lòng thực quản, lệch tâm không đều. \nKết luận\nBn HCC/xơ gan, VGB (-), AFP (-) => Biopsy (+) HCC => Nút mạch TACE 2 lần: T3 & T12/2024, so sánh với phim chụp ngày 17/3/25, hiện tại thấy:\n- HCC GAN (T) 2 Ổ LỚN, SAU TACE 2 LẦN HOẠI TỬ PHẦN LỚN, PHẦN RÌA RÌA CHƯA NÚT HẾT NGẤM THUỐC DẠNG VIỀN DÀY 8MM TĂNG LÊN # 25MM\n- XƠ TEO GAN \n- GIÃN LỚN TM THỰC QUẢN & TM PHÌNH VỊ.\n- DÀY - SÙI GÂY HẸP ĐOẠN THẤP LÒNG THỰC QUẢN ĐẾN SÁT TÂM VỊ CHƯA RÕ BẢN CHẤT - CHƯA LOẠI TRỪ K\n- BN ĐÃ THAY KHỚP HÁNG NHÂN TẠO TOÀN PHẦN 2 BÊN\nĐề nghị\nNỘI SOI SINH THIẾT THỰC QUẢN. HỘI CHẨN LẠI SAU KHI CÓ KẾT QUẢ KHÁM NGHIỆM TỔNG THỂ\n-------------------------------------------------------------------------------------------------\nNội soi tiêu hóa dưới gây mê (dạ dày -tá tràng): \nMô tả\nĐọc kết quả\n- Thực quản:     Giãn tĩnh mạch thực quản độ III, có dấu đỏ. Cách CRT ~ 25-32 cm có đám niêm mạc đổi màu, bao quanh toàn bộ chu vi, trên bề mặt có vài đám tổn thương lần sần chiếm chủ yếu trên bề mặt búi giãn tĩnh mạch. \n- Tâm vị:             Niêm mạc phù nề, xung huyết\n- Phình vị:          Niêm mạc phù nề, xung huyết\n- Thân vị:           Niêm mạc phù nề, xung huyết\n- Bờ cong nhỏ:  Niêm mạc phù nề, xung huyết\n- Hang vị:           Niêm mạc phù nề, xung huyết\n- Môn vị:            Lỗ môn vị tròn\n- Tá tràng:          Bình thường\n- Sinh Thiết:      Không      \nKết luận\nTỔN THƯƠNG THỰC QUẢN TD K\nGIÃN TĨNH MẠCH THỰC QUẢN ĐỘ III\nVIÊM DẠ DÀY \nĐề nghị\nNội soi sinh thiết\n-------------------------------------------------------------------------------------------------------------------------\nNội soi thực quản, dạ dày, tá tràng kết hợp sinh thiết: \nMô tả\nĐọc kết quả\n- Thực quản:     Giãn tĩnh mạch thực quản độ III, có dấu đỏ. Cách CRT ~ 25-32 cm có đám niêm mạc đổi màu, bao quanh toàn bộ chu vi, trên bề mặt có vài đám tổn thương lần sần chiếm chủ yếu trên bề mặt búi giãn tĩnh mạch.  Đã sinh thiết 03 mẫu làm GPB\n- Tâm vị:             Niêm mạc phù nề, xung huyết\n- Phình vị:          Niêm mạc phù nề, xung huyết\n- Thân vị:           Niêm mạc phù nề, xung huyết\n- Bờ cong nhỏ:  Niêm mạc phù nề, xung huyết\n- Hang vị:           Niêm mạc phù nề, xung huyết\n- Môn vị:            Lỗ môn vị tròn\n- Tá tràng:          Bình thường\n- Sinh Thiết:      Có      \nKết luận\nTỔN THƯƠNG THỰC QUẢN TD K\nGIÃN TĨNH MẠCH THỰC QUẢN ĐỘ III\nVIÊM DẠ DÀY \nĐề nghị\n-----------------------------------------------------------------------------------------------------------------\nXét nghiệm mô bệnh học thường quy cố định, chuyển, đúc, cắt, nhuộm…các bệnh phẩm sinh thiết: \nMô tả\nĐọc kết quả\nSố tiêu bản: 4592/2025.\nĐại thể:  02 mẫu đk 0,1cm.\nVi thể: Sinh thiết thấy biểu mô vẩy không sừng hoá quá sản, loạn sản hết biểu mô, ít cầu sừng, không khảo sát được xâm nhập.\nKết luận\nUng thư biểu mô vẩy không sừng hoá, không khảo sát được xâm nhập."
-        },
-        {
-          "ngay_xet_nghiem": "21/07/2025",
-          "xet_nghiem_mau": "",
-          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính lồng ngực có tiêm thuốc cản quang (từ 64- 128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT lồng ngực trên máy 128 dãy có tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MIP, MPR, 3D:\nMô tả:\n- Thực quản đoạn ngực có hình ảnh thành dày, sau tiêm thuốc thì tĩnh mạch thấy giãn tĩnh mạch dưới niêm mạc chỗ giãn lớn nhất ~12mm. \n- Phổi phải: Không thấy hình ảnh khối choán chỗ bất thường nhu mô phổi. Không thấy dày tổ chức kẽ phổi. Không thấy giãn phế quản. Không thấy giãn phế nang. Không thấy tràn khí màng phổi. Không thấy tràn dịch khoang màng phổi.\n- Phổi trái: Không thấy hình ảnh khối choán chỗ bất thường nhu mô phổi. Không thấy dày tổ chức kẽ phổi. Không thấy giãn phế quản. Không thấy giãn phế nang. Không thấy tràn khí màng phổi. Không thấy tràn dịch khoang màng phổi.\n- Không thấy hạch to trong trung thất.\n- Tim không to, không có dịch khoang màng ngoài tim.  \n- Không thấy tổn thương xương lồng ngực.\n- Không thấy tổn thương phần mềm thành ngực.\nKết luận\nHình ảnh dày thành thực quản đoạn ngực. Giãn lớn tĩnh mạch thực quản. \nĐề nghị\nKết hợp nội soi thực quản khảo sát thêm."
-        }
-      ],
-      "hoi_chan": {}
-    },
-    {
       "ma_benh_nhan": "2500134697",
       "ho_ten": "NGUYỄN NGỌC LỆ",
       "tuoi": "71 tuổi",
       "gioi_tinh": "Nam",
       "dia_chi": "Thanh Xuân-Xã Phú Trạch--Tỉnh Quảng Trị",
       "khoa": "Ung bướu",
-      "phong": "",
-      "giuong": "",
+      "phong": "Buồng 5",
+      "giuong": "H053",
       "chan_doan": "Ung thư gan giai đoạn D",
       "thoi_gian": "22/07/2025 08:45",
       "treatments": [
@@ -368,6 +80,24 @@
           "ngay_dien_bien": "29/07/2025",
           "gio_dien_bien": "08:00",
           "to_so": "4",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 100ml                    x    02 Chai\n(T2) Vinluta 900mg                           x    02 lọ\n                     Truyền TM XL g/p: 8h - 16h\nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm Tiêm TM 1 ống/lần * 2 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Duphalac  10g/15ml                     x       02 Gói\n                     Uống 1 gói/lần * 2 lần/ngày: 8h-16h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Jamin                                             x    02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 2 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 30/07/2025",
+          "ngay_dien_bien": "30/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "5",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 100ml                    x    02 Chai\n(T2) Vinluta 900mg                           x    02 lọ\n                     Truyền TM XL g/p: 8h - 16h\nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm Tiêm TM 1 ống/lần * 2 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Duphalac  10g/15ml                     x       02 Gói\n                     Uống 1 gói/lần * 2 lần/ngày: 8h-16h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Jamin                                             x    02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 2 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18\n- Tổng phân tích tế bào máu ngoại vi\r\n- Albumin, billirubin toàn phần, billirubin trực tiếp, GPT, GOT, điện giải đồ (Na, K, Cl). \n- Tỷ prothrombin"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 31/07/2025",
+          "ngay_dien_bien": "31/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "5",
           "bac_si_dieu_tri": "Bs Trương Quang Lương",
           "dien_bien": "",
           "chi_dinh": "Natri Clorid 0,9% 100ml                    x    02 Chai\n(T2) Vinluta 900mg                           x    02 lọ\n                     Truyền TM XL g/p: 8h - 16h\nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm Tiêm TM 1 ống/lần * 2 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Duphalac  10g/15ml                     x       02 Gói\n                     Uống 1 gói/lần * 2 lần/ngày: 8h-16h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Jamin                                             x    02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 2 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18"
@@ -479,7 +209,7 @@
       "khoa": "Ung bướu",
       "phong": "Buồng 5",
       "giuong": "H031",
-      "chan_doan": "TD Ung thư gan",
+      "chan_doan": "Ung thư gan giai đoạn C",
       "thoi_gian": "24/07/2025 09:00",
       "treatments": [
         {
@@ -532,6 +262,24 @@
           "ngay_dien_bien": "29/07/2025",
           "gio_dien_bien": "08:00",
           "to_so": "3",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 100ml                   x    02 Chai\n(T2) Vinluta 900mg                               x    02 Lọ\nTruyền TM XL g/p: 8h - 16h\nVinzix 40mg                                      x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 1 viên/lần * 1 lần/ngày: 8h\n(T2) Atihepam 500mg                          x     02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02\r\nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 30/07/2025",
+          "ngay_dien_bien": "30/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "4",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 100ml                   x    02 Chai\n(T2) Vinluta 900mg                               x    02 Lọ\nTruyền TM XL g/p: 8h - 16h\nVinzix 40mg                                      x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 1 viên/lần * 1 lần/ngày: 8h\n(T2) Atihepam 500mg                          x     02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02\r\nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 31/07/2025",
+          "ngay_dien_bien": "31/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "4",
           "bac_si_dieu_tri": "Bs Trương Quang Lương",
           "dien_bien": "",
           "chi_dinh": "Natri Clorid 0,9% 100ml                   x    02 Chai\n(T2) Vinluta 900mg                               x    02 Lọ\nTruyền TM XL g/p: 8h - 16h\nVinzix 40mg                                      x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 1 viên/lần * 1 lần/ngày: 8h\n(T2) Atihepam 500mg                          x     02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02\r\nBT18"
@@ -619,7 +367,7 @@
           "to_so": "4",
           "bac_si_dieu_tri": "Bs Trương Quang Lương",
           "dien_bien": "",
-          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\n(T2) Albumin 20% 100ml                      x     01 Chai \n                     Truyền TM XV g/p \n(6) Medivernol 1g                              x     02 Lọ\nNatri Clorid 0,9% 100ml                    x    01 Túi\n               Truyền TM XL g/p\n(6) Ciprofloxacin 200mg/ 100ml           x      02 Lọ\n                     Truyền TM XL g/p: 8h - 20h\nVinzix 20mg/2ml                                   x      04 Ống\n                     Tiêm TM 2 ống/lần * 2 lần/ngày\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\n(T2) Jamin                                             x    02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 2 viên/lần * 2 lần/ngày\nCS: 02 \nBT18"
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\n(T2) Albumin 20% 100ml                      x     01 Chai \n                     Truyền TM XV g/p \n(6) Medivernol 1g                              x     02 Lọ\nNatri Clorid 0,9% 100ml                    x    01 Túi\n               Truyền TM XL g/p\n(6) Ciprofloxacin 200mg/ 100ml           x      02 Lọ\n                     Truyền TM XL g/p: 8h - 20h\nVinzix 20mg/2ml                                   x      04 Ống\n                     Tiêm TM 2 ống/lần * 2 lần/ngày\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\nDipartate (140mg  158mg)                  x      02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\n(T2) Jamin                                             x    02 Viên\n                     Uống 1 viên/lần * 2 lần/ngày\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 2 viên/lần * 2 lần/ngày\n(T2) Duphalac  10g/15ml                     x       2 gói\n          Uống 1 gói/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18"
         }
       ],
       "tests": [
@@ -697,6 +445,171 @@
         }
       ],
       "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2500137048",
+      "ho_ten": "TRẦN VĂN ĐÈO",
+      "tuoi": "62 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Hoà Bình-Xã Ninh Châu--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "Buồng 5",
+      "giuong": "H030",
+      "chan_doan": "Ung thư gan giai đoạn B",
+      "thoi_gian": "28/07/2025 08:45",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "08:45 28/07/2025",
+          "ngay_dien_bien": "28/07/2025",
+          "gio_dien_bien": "08:45",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử ung thư gan giai đoạn B phát hiện cách đây 1 tháng đã TACE 1 lần. Nay tái khám xét nút mạch tiếp tục lần II.\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- AFP: 98,23 IU/ml\n- CT: HPT II có nốt 10mm, có tính chất huyết động TD HCC.\nΔ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa hỗ trợ",
+          "chi_dinh": "Vitamin C 500mg                                   x     01 Viên \n                     Uống 1v/lần * 1 lần/ngày\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 29/07/2025",
+          "ngay_dien_bien": "29/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vitamin C 500mg                                   x     02 Viên \nUống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 03 \nBT18"
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "28/07/2025",
+          "xet_nghiem_mau": "Đo hoạt độ ALT (GPT) [Máu](< 41.0): 32.3\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 29.1\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 4.6\nĐịnh lượng Albumin [Máu](35 - 52): 41.9\nĐịnh lượng Glucose [Máu](4,11 - 5,89): 4.60\nĐiện giải đồ (Na, K, Cl) [Máu]\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 139,7\nK+ (3,5 - 5,1): 4,50\nCl- (98 - 107): 105,26\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 98.23\n--------------------------------------------------------------------------------\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 10.0\nNEU# (2,1 - 6,1): 5.8\nNEU% (50 - 70): 58.4\nLYM# (1,3 - 3,5): 2.9\nLYM% (20 - 44): 29.4\nMONO# (0,3 - 0,8): 0.95\nMONO% (5,1 - 9): 9.50\nEOS# (<= 0,5): 0.22\nEOS% (0,9 - 4): 2.20\nBASO# (<= 0,2): 0.05\nBASO% (0,3 - 1,5): 0.50\nRBC (4,38 - 5,77): 4.39\nHGB (136 - 172): 133\nHCT (40 - 50): 41.1\nMCV (80,7 - 95,5): 93.6\nMCH (27,2 - 33,5): 30.3\nMCHC (327 - 356): 324\nRDW (11 - 13,4): 12.7\nPLT (156 - 373): 230\nMPV (7,4 - 12): 9.0\nPCT (0,17 - 0,35): 0.21\nPDW: 9.5\nLUC% (0 - 4): 0.0\nLUC#: 0.0\n---------------------------------------------------\nĐịnh lượng Creatinin (máu) (62 - 106): 76\neGFR: 92.99\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 11,3\nTỷ lệ Prothrombin (70-140): 99\nINR (0.80 - 1.20): 1,01",
+          "xet_nghiem_hinh_anh": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang): \nMô tả\nĐọc kết quả\n- Gan: Gan phải có cấu trúc hỗn hợp âm, bờ giới hạn khá rõ kt#53x45mm. Nhu mô còn lại cấu trúc thô, đường bờ kém đều \n- Tĩnh mạch cửa không giãn.\t\n- Đường mật: Đường mật trong và ngoài gan không giãn, không có sỏi.\t\n- Túi mật: Không to, dịch trong, thành mỏng đều, không có sỏi.\t\n- Tụy: Nhu mô đồng nhất kích thước bình thường, ống wirsung không giãn.\t\n- Lách: Nhu mô đồng nhất kích thước bình thường.\t\n- Thận phải: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ.\t\nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Thận trái: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ.\t\nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Bàng Quang: Bình thường.\t\n- Tiền liệt tuyến: Bình thường.\t\n- Dịch ổ bụng: Không có dịch.\t\n* Ghi chú: \nKết luận\nHình ảnh u gan sau Tace/ viêm gan mạn. \nĐề nghị\nChụp cắt lớp vi tính có tiêm thuốc khảo sát thêm. \n----------------------------------------------------\nChụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT ổ bụng trên máy 128 dãy trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MPR, MIP.\nMô tả:\n- Gan không to, bờ không đều. Khối u gan HTP VI sau TACE đã lắng đọng vật liệu nút mạch trong khối u, sau tiêm phần rìa khối có hình ảnh tăng sinh mạch, ngấm thuốc mạnh thì động mạch, thải thuốc nhanh thì tĩnh mạch cửa. HPT II có nốt 10mm, có tính chất huyết động TD HCC.\n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong gan không giãn, không thấy sỏi tăng tỷ trọng.\n- Ống mật chủ không giãn, không thấy sỏi tăng tỷ trọng. \n- Túi mật không giãn, thành mỏng, không thấy sỏi tăng tỷ trọng, xung quanh túi mật không có dịch.\n- Tuỵ: Kích thước bình thường, nhu  mô đều, ống tuỵ không giãn. \n- Lách không to, nhu mô đều.\n- Thận phải: hình thái, kích thước bình thường, nhu mô dày và ngấm thuốc bình thường. Đài bể thận không giãn, không thấy sỏi tăng tỷ trọng. Niệu quản không giãn.\n- Thận trái: hình thái, kích thước bình thường, nhu mô dày và ngấm thuốc bình thường. Đài bể thận không giãn, không thấy sỏi tăng tỷ trọng. Niệu quản không giãn.\n- Hố thượng thận hai bên không thấy khối.\n- Bàng quang: không thấy dày thành bất thường, không thất sỏi.\n- Không thấy khối bất thường tiểu khung.\n- Hệ thống bó mạch chủ bụng chậu không thấy bất thường.\n- Động mạch MTTT và MTT dưới khẩu kính bình thường, không thấy huyết khối hẹp tắc.\n- Tạng rỗng: Chưa thấy hình ảnh dày thành khu trú.\n- Không thấy hình ảnh hạch lớn.\n- Không thấy dịch tự do ổ bụng và khoang màng phổi hai bên.\nKết luận\nKhối u gan HTP VI sau TACE đã lắng đọng vật liệu nút mạch trong khối u, có tổn thương mới ở phần rìa khối.\nHPT II có nốt 10mm, có tính chất huyết động TD HCC.\nCác cơ quan khác hiện tại không thấy tổn thương.\nĐề nghị\nHội chẩn điện quang can tiệp xét tiếp tục TACE."
+        }
+      ],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": true,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "08",
+        "thoi_gian_hc_phut": "00",
+        "thoi_gian_hc_ngay": "29/07/2025",
+        "dia_diem_hc": "Khoa Ung Bướu",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "Nút mạch gan",
+        "thanh_vien": "Bs Nguyễn Đức Hùng",
+        "tom_tat_tinh_trang": "Bệnh nhân tiền sử ung thư gan giai đoạn B đã nút mạch 1 lần (T6/2025) nay vào nút mạch lần 2 theo hẹn\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Tim phổi chưa nghe bệnh lý\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- AFP: 98,23 IU/ml\n- CT: HPT II có nốt 10mm, có tính chất huyết động TD HCC..",
+        "van_de_hc": "Δ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ",
+        "ket_luan_hc": "Δ: Ung thư gan giai đoạn B\nPTV: Bs Nguyễn Đức Hùng"
+      }
+    },
+    {
+      "ma_benh_nhan": "2500138776",
+      "ho_ten": "NGUYỄN THANH HOÀI",
+      "tuoi": "70 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Thôn Kéc-Xã Hoàn Lão--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "Buồng 2",
+      "giuong": "H016",
+      "chan_doan": "Ung thư gan giai đoạn C",
+      "thoi_gian": "28/07/2025 16:00",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "16:00 28/07/2025",
+          "ngay_dien_bien": "28/07/2025",
+          "gio_dien_bien": "16:00",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử ung thư gan giai đoạn C đã điều trị giảm nhẹ nhiều đợt tại khoa ung bướu. Mấy ngày nay mệt nhiều, ăn uống kém, đau nhiều HSP lo lắng nên nhập viện điều trị \nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan giai đoạn C\nTL: nặng",
+          "chi_dinh": "Sodium Chlorid 0,9% 500ml                  x    01 Chai\n          Truyền TM XL g/p\nGlucolyte 2                                          x    01 Chai\n                     Truyền TM XL g/p \n(1) Dexamethason 4mg/1ml                   x    02 Ống\n          Tiêm TM 2 ống/lần * 1 lần/ngày: 16h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n          Tiêm TM 1 lọ/lần * 1 lần/ngày: 16h\nVincomid (10mg/2ml)                           x    01 Ống\n          Tiêm bắp 1 ống/lần * 1 lần/ngày: 16h\nVinzix 40mg                                      x      01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 16h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 16h\nSaVi Tenofovir 300mg                           x     01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 16h\n(1) Morphin 30mg                                x  01 (Một viên)\nPha mỗi viên với 30ml nước, uống mỗi lần 5ml\n16h - 20h - 23h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 29/07/2025",
+          "ngay_dien_bien": "29/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Sodium Chlorid 0,9% 500ml                  x    01 Chai\n          Truyền TM XL g/p\nGlucolyte 2                                          x    01 Chai\n                     Truyền TM XL g/p \n(2) Dexamethason 4mg/1ml                   x    02 Ống\n          Tiêm TM 2 ống/lần * 1 lần/ngày: 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n          Tiêm TM 1 lọ/lần * 1 lần/ngày: 8h\nVincomid (10mg/2ml)                           x    01 Ống\n          Tiêm bắp 1 ống/lần * 1 lần/ngày: 8h\nVinzix 40mg                                      x      02 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h-16h\nSaVi Tenofovir 300mg                           x     01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h\n(2) Morphin 30mg                                x  01 (Một viên)\nPha mỗi viên với 30ml nước, uống mỗi lần 5ml\n4h - 8h - 12h - 16h - 20h - 23h\n(T2) Secuk                                           x      02 Viên\n          Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 30/07/2025",
+          "ngay_dien_bien": "30/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Sodium Chlorid 0,9% 500ml                  x    01 Chai\n          Truyền TM XL g/p\nGlucolyte 2                                          x    01 Chai\n                     Truyền TM XL g/p \n(3) Dexamethason 4mg/1ml                   x    02 Ống\n          Tiêm TM 2 ống/lần * 1 lần/ngày: 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n          Tiêm TM 1 lọ/lần * 1 lần/ngày: 8h\nVincomid (10mg/2ml)                           x    01 Ống\n          Tiêm bắp 1 ống/lần * 1 lần/ngày: 8h\nVinzix 40mg                                      x      02 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h-16h\nSaVi Tenofovir 300mg                           x     01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h\n(3) Morphin 30mg                                x  01 (Một viên)\nPha mỗi viên với 30ml nước, uống mỗi lần 5ml\n4h - 8h - 12h - 16h - 20h - 23h\n(T2) Secuk                                           x      02 Viên\n          Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 31/07/2025",
+          "ngay_dien_bien": "31/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Sodium Chlorid 0,9% 500ml                  x    01 Chai\n          Truyền TM XL g/p\nGlucolyte 2                                          x    01 Chai\n                     Truyền TM XL g/p \n(4) Dexamethason 4mg/1ml                   x    02 Ống\n          Tiêm TM 2 ống/lần * 1 lần/ngày: 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n          Tiêm TM 1 lọ/lần * 1 lần/ngày: 8h\nVincomid (10mg/2ml)                           x    01 Ống\n          Tiêm bắp 1 ống/lần * 1 lần/ngày: 8h\nVinzix 40mg                                      x      02 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h-16h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h-16h\nSaVi Tenofovir 300mg                           x     01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 8h\n(4) Morphin 30mg                                x  01 (Một viên)\nPha mỗi viên với 30ml nước, uống mỗi lần 5ml\n4h - 8h - 12h - 16h - 20h - 23h\n(T2) Secuk                                           x      02 Viên\n          Uống 1 viên/lần * 2 lần/ngày: 8h-16h\nCS: 02 \nBT18\n- Tổng phân tích tế bào máu ngoại vi \n- Albumin, billirubin toàn phần, billirubin trực tiếp,GPT, GOT, điện giải đồ (Na, K, Cl)."
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "28/07/2025",
+          "xet_nghiem_mau": "Định lượng Protein toàn phần [Máu](66 - 87): 79,6\nĐo hoạt độ ALT (GPT) [Máu](< 41.0): 46\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 116,2\nĐịnh lượng Bilirubin trực tiếp [Máu](0 - 4,3): 2,4\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 11,7\nĐịnh lượng Creatinin (máu)\nĐịnh lượng Creatinin (máu) (62 - 106): 59\neGFR: 97.60\nĐịnh lượng Albumin [Máu](35 - 52): 32,8\nĐịnh lượng Glucose [Máu](4,11 - 5,89): 7,6\n----------------------------------------------\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 130,3\nK+ (3,5 - 5,1): 3,62\nCl- (98 - 107): 97,29\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 9990\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 11,9\nTỷ lệ Prothrombin (70-140): 86,6\nINR (0.80 - 1.20): 1,14\n------------------------------------------------\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 8.7\nNEU# (2,1 - 6,1): 6.8\nNEU% (50 - 70): 77.5\nLYM# (1,3 - 3,5): 1.0\nLYM% (20 - 44): 11.8\nMONO# (0,3 - 0,8): 0.72\nMONO% (5,1 - 9): 8.20\nEOS# (<= 0,5): 0.16\nEOS% (0,9 - 4): 1.80\nBASO# (<= 0,2): 0.06\nBASO% (0,3 - 1,5): 0.70\nRBC (4,38 - 5,77): 3.75\nHGB (136 - 172): 109\nHCT (40 - 50): 34.8\nMCV (80,7 - 95,5): 92.8\nMCH (27,2 - 33,5): 29.1\nMCHC (327 - 356): 313\nRDW (11 - 13,4): 15.9\nPLT (156 - 373): 401\nMPV (7,4 - 12): 8.2\nPCT (0,17 - 0,35): 0.33\nPDW: 7.6\nLUC% (0 - 4): 0.0\nLUC#: 0.0",
+          "xet_nghiem_hinh_anh": "Chụp Xquang ngực thẳng: \nMô tả\nĐọc kết quả\nKết luận\nBóng tim không to. \nĐám mờ đỉnh phổi phải. Xờ mờ, hang hóa đỉnh phổi trái. Dày kẽ rải rác nhu mô phổi còn lại. \nVòm hoành phải nằm cao\nĐề nghị"
+        }
+      ],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2500138358",
+      "ho_ten": "NGUYỄN VĂN TIẾN",
+      "tuoi": "40 Tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Trùm-Xã Tân Mỹ--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "Buồng 5",
+      "giuong": "H041",
+      "chan_doan": "Ung thư gan giai đoạn B",
+      "thoi_gian": "28/07/2025 16:21",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "16:21 28/07/2025",
+          "ngay_dien_bien": "28/07/2025",
+          "gio_dien_bien": "16:21",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân nam, 40 tuổi, K gan phát hiện từ tháng 4/2024, đã RFA 2 lần, TACE 6 lần (lần cuối cùng  T5/2025). Bệnh nhân tái khám có chỉ định TACE nên nhập viện điều trị tiếp\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- AFP: 5323 IU/ml\n- CT: Tổn thương ngấm thuốc ở HPT IV-V \nΔ: Ung thư gan giai đoạn B\nTL: Nặng",
+          "chi_dinh": "Vitamin C 500mg                                   x     01 Viên \n                     Uống 16h21 \nCS: 03 \nBT18"
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "28/07/2025",
+          "xet_nghiem_mau": "Định lượng Protein toàn phần [Máu](66 - 87): 70.4\nĐo hoạt độ ALT (GPT) [Máu](< 41.0): 27.4\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 35.5\nĐịnh lượng Bilirubin trực tiếp [Máu](0 - 4,3): 3.8\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 7.7\nĐịnh lượng Creatinin (máu)\nĐịnh lượng Creatinin (máu) (62 - 106): 71\neGFR: 111.62\nĐịnh lượng Albumin [Máu](35 - 52): 39.2\nĐịnh lượng Glucose [Máu](4,11 - 5,89): 5.01\nĐiện giải đồ (Na, K, Cl) [Máu]\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 137.9\nK+ (3,5 - 5,1): 3.69\nCl- (98 - 107): 103.0\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 5323\n-----------------------------------------------------------\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 11,2\nTỷ lệ Prothrombin (70-140): 100\nINR (0.80 - 1.20): 1,00\n-------------------------------------------------------------\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 6.9\nNEU# (2,1 - 6,1): 2.7\nNEU% (50 - 70): 39.1\nLYM# (1,3 - 3,5): 1.8\nLYM% (20 - 44): 25.7\nMONO# (0,3 - 0,8): 0.41\nMONO% (5,1 - 9): 5.90\nEOS# (<= 0,5): 1.95\nEOS% (0,9 - 4): 28.30\nBASO# (<= 0,2): 0.07\nBASO% (0,3 - 1,5): 1.00\nRBC (4,38 - 5,77): 4.65\nHGB (136 - 172): 138\nHCT (40 - 50): 42.7\nMCV (80,7 - 95,5): 91.8\nMCH (27,2 - 33,5): 29.7\nMCHC (327 - 356): 323\nRDW (11 - 13,4): 12.9\nPLT (156 - 373): 161\nMPV (7,4 - 12): 10.2\nPCT (0,17 - 0,35): 0.16\nPDW: 11.5\nLUC% (0 - 4): 0.0\nLUC#: 0.0",
+          "xet_nghiem_hinh_anh": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang): \nMô tả\nĐọc kết quả\n- Gan: Nhu mô gan có hai cấu trúc hỗn hợp âm vừa phần đặc vừa phần dịch, kích thước lớn nhất ở gan phải #60x55mm. Nhu mô gan còn lại thô, đường bờ còn đều\n- Tĩnh mạch cửa không giãn.\t\n- Đường mật: Đường mật trong và ngoài gan không giãn, không có sỏi.\t\n- Túi mật: Không to, dịch trong, thành mỏng đều, không có sỏi. Có vài polyp, bờ không đều kích thước lớn nhất #15.4x8.8mm\t\n- Tụy: Nhu mô đồng nhất kích thước bình thường, ống wirsung không giãn.\t\n- Lách: Nhu mô đồng nhất kích thước bình thường.\t\n- Thận phải: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ.\t\nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Thận trái: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ.\t\nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Bàng Quang: Bình thường.\t\n- Tiền liệt tuyến: Bình thường.\t\n- Dịch ổ bụng: Không có dịch.\t\n* Ghi chú: \nKết luận\nHình ảnh u gan sau RFA và Tace/ Viêm gan mạn. Đa polyp túi mật. \n------------------------------------------------------------\nChụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (bao gồm mạch: gan, tụy, lách và mạch khối u) (từ 64-128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: Chụp CLVT 128 dãy vùng ổ bụng trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MPR, MIP.\nMô tả: HCC đa ổ gan (P) và (T): Cuba: TACE1 08/7/24, RFA1 cuối T7/2024. Chợ Rẫy: RFA2: T9/2024, TACE 2: T10/2024. Cuba; TACE3, 4, 5: T1-4-5/2025; Chỉ số AFP T5/25: 2250. T6/25: 3621. T7.2025: 5323\n- Hiện tại: khối u chính ở gan (P) hoại tử tốt sau TACE, u gan (T) sau đốt và nút hoại tử không hoàn toàn. Hiện tại có hình ảnh ngấm thuốc ở vị trí Hpt IV, V không đều, có tăng sinh mạch, hình bản đồ, khó đo kích thước, chổ rộng nhất # 45 x 75mm. Nhu mô gan còn lại thô, xơ hóa, đường bờ không đều, giới hạn không rõ. \n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi tăng tỷ trọng.\n- Tuỵ, lách, hai thận chưa phát hiện tổn thương đặc hiệu\n- Tầng trên ổ bụng không thấy hạch to, không thấy dịch tự do.\nKết luận\nHình ảnh:\n- HCC GAN (P) HOẠI TỬ TỐT SAU ĐỐT RFA & NÚT MẠCH TACE\n- HCC GAN (T) SAU RFA & TACE HOẠI TỬ KHÔNG HOÀN TOÀN.\n- TỔN THƯƠNG NGẤM THUỐC Ở HPT IV - V  NHƯ MÔ TẢ\t\nĐề nghị\nNHẬP VIỆN XÉT NÚT MẠCH LẦN TIẾP THEO"
+        }
+      ],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": true,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "08",
+        "thoi_gian_hc_phut": "00",
+        "thoi_gian_hc_ngay": "28/07/2025",
+        "dia_diem_hc": "Khoa Ung Bướu",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "Nút mạch gan",
+        "thanh_vien": "Bs Nguyễn Đức Hùng",
+        "tom_tat_tinh_trang": "Bệnh nhân tiền sử ung thư gan giai đoạn B đã nút mạch 6 lần, lần cuối T5/2025 nay vào nút mạch lần 7 theo hẹn\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Tim phổi chưa nghe bệnh lý\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- AFP: 5323 IU/ml\n- CT: Tổn thương ngấm thuốc ở HPT IV-V",
+        "van_de_hc": "Δ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ",
+        "ket_luan_hc": "Δ: Ung thư gan giai đoạn B\nPTV: Bs Nguyễn Đức Hùng"
+      }
     }
   ],
   "discharged": [
@@ -3750,6 +3663,319 @@
         "ly_do_hc": "Nút mạch gan",
         "thanh_vien": "Bs Nguyễn Đức Hùng",
         "tom_tat_tinh_trang": "Bệnh nhân tiền sử ung thư gan giai đoạn B đã nút mạch 3 lần lần cuối (T3/2023) nay vào nút mạch lần 4 theo hẹn\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Tim phổi chưa nghe bệnh lý\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- AFP: 2,96 IU/ml\n- CT: Tổn thương mới HPT III",
+        "van_de_hc": "Δ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ",
+        "ket_luan_hc": "Δ: Ung thư gan giai đoạn B\nPTV: Bs Nguyễn Đức Hùng"
+      }
+    },
+    {
+      "ma_benh_nhan": "2500138946",
+      "ho_ten": "LÊ QUANG HƠP",
+      "tuoi": "78 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Lương Yến-Xã Quảng Ninh--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "Buồng 7",
+      "giuong": "H063",
+      "chan_doan": "Ung thư tiền liệt tuyến giai đoạn IV di căn xương",
+      "thoi_gian": "28/07/2025 21:30",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "22:22 28/07/2025",
+          "ngay_dien_bien": "28/07/2025",
+          "gio_dien_bien": "21:30",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân ung thư TLT di căn xương đã điều trị thuốc giảm đau xương được 6 ngày. Đợt này đau nhiều vùng CSTL ăn uống kém, đai tiện táo đã thụt HM nhưng không đỡ lo lắng nên nhập viện điều trị\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, gan lách chưa sờ thấy. \n- Đau CSTL, hạn chế vận động\nΔ: Ung thư TLT giai đoạn IV di căn xương",
+          "chi_dinh": "(1) Dexamethason 4mg/1ml                   x    02 Ống\n          Tiêm TM 2 ống/lần * 1 lần/ngày: 21h30\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n          Tiêm TM 1 lọ/lần * 1 lần/ngày: 21h30\nVontarel 75mg                                    x    01 Ống\n            Tiêm bắp 21h30 \n(T2) (1) Morphin 10mg                         x    01 (Một ống)\n           TDD một ống 23h\nBisacodyl DHG 5mg                               x     01 Viên\n          Uống 1 viên/lần * 1 lần/ngày: 21h30\nCS: 02 \nBT18\n- Tổng phân tích tế bào máu ngoại vi \n- Creatinin, glucose, protein, albumin, GPT, GOT, điện giải đồ (Na, K, Cl). \n- Siêu âm bụng \n- Xq ngực"
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2500133518",
+      "ho_ten": "HUỲNH MINH KHÔI",
+      "tuoi": "70 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Thôn Nam-Xã Bố Trạch--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "Buồng 3",
+      "giuong": "H019",
+      "chan_doan": "Ung thư gan giai đoạn C",
+      "thoi_gian": "21/07/2025 11:00",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "11:00 21/07/2025",
+          "ngay_dien_bien": "21/07/2025",
+          "gio_dien_bien": "11:00",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Khởi bệnh khoảng T3/2024 phát hiện ung thư gan (GPB: Ung thư gan biệt hóa tốt, VGB (-), AFP: 8) được chỉ định nút mạch gan điều trị. Tháng 12 năm 2024 tái khám phát hiện u tăng sinh mạch tại rìa được nhập viện nút mạch lần 2. Tháng 7 năm 2025 nuốt nghẹn nhiều đi khám phát hiện u thực quản được sinh thiết tổn thương kết quản: Ung thư biểu mô vảy không sừng hóa. Mấy ngày nay nuốt nghẹn nhiều, ăn uống kém lo lắng nên nhập viện \nTS: Viên gan B\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan giai đoạn C - Ung thư thực quản \nTL: Nặng",
+          "chi_dinh": ""
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 22/07/2025",
+          "ngay_dien_bien": "22/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(1) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 23/07/2025",
+          "ngay_dien_bien": "23/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(2) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 24/07/2025",
+          "ngay_dien_bien": "24/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "3",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(3) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 25/07/2025",
+          "ngay_dien_bien": "25/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "3",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(4) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 26/07/2025",
+          "ngay_dien_bien": "26/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "4",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucose 10% 500ml                               x    01 Chai\n                     Truyền TM L g/p\n(5) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 27/07/2025",
+          "ngay_dien_bien": "27/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "4",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucolyte -2 500ml                           x     01 Chai\n                     Truyền TM XL g/p \n(6) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 28/07/2025",
+          "ngay_dien_bien": "28/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "5",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucolyte -2 500ml                           x     01 Chai\n                     Truyền TM XL g/p \n(7) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 29/07/2025",
+          "ngay_dien_bien": "29/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "5",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                    x    01 Chai\n                     Truyền TM XL g/p\nGlucolyte -2 500ml                           x     01 Chai\n                     Truyền TM XL g/p \n(8) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVincomid (10mg/2ml)                           x    01 Ống\n                     Tiêm bắp 8h\n(T2) Hergamin 140mg                          x     02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      03 Viên\n                     Uống 1 viên/lần * 3 lần/ngày: 8h-16h-23h\nCS: 02 \nBT18"
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "15/07/2025",
+          "xet_nghiem_mau": "Định lượng Protein toàn phần [Máu](66 - 87): 69,0\nĐo hoạt độ ALT (GPT) [Máu](< 41.0): 10\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 68,5\nĐịnh lượng Bilirubin trực tiếp [Máu](0 - 4,3): 9.1\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 22,7\nĐịnh lượng Creatinin (máu)\nĐịnh lượng Creatinin (máu) (62 - 106): 76\neGFR: 87.96\nĐịnh lượng Albumin [Máu](35 - 52): 32,2\nĐiện giải đồ (Na, K, Cl) [Máu]\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 138,6\nK+ (3,5 - 5,1): 4,16\nCl- (98 - 107): 112,54\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 5.85\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 12,0\nTỷ lệ Prothrombin (70-140): 90\nINR (0.80 - 1.20): 1,07\n------------------------------------------------------------------------------------------------\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 5,0\nNEU# (2,1 - 6,1): 2,9\nNEU% (50 - 70): 57,7\nLYM# (1,3 - 3,5): 1,7\nLYM% (20 - 44): 33,0\nMONO# (0,3 - 0,8): 0,32\nMONO% (5,1 - 9): 6,30\nEOS# (<= 0,5): 0,14\nEOS% (0,9 - 4): 2,80\nBASO# (<= 0,2): 0,01\nBASO% (0,3 - 1,5): 0,20\nRBC (4,38 - 5,77): 4,05\nHGB (136 - 172): 134\nHCT (40 - 50): 40,9\nMCV (80,7 - 95,5): 100,8\nMCH (27,2 - 33,5): 33,1\nMCHC (327 - 356): 328\nRDW (11 - 13,4): 14,4\nPLT (156 - 373): 72\nMPV (7,4 - 12): 9,1\nPCT (0,17 - 0,35): 0,07\nPDW: 17,7\nLUC% (0 - 4): 0,8\nLUC#: 0,0",
+          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (bao gồm mạch: gan, tụy, lách và mạch khối u) (từ 64-128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT tầng trên ổ bụng có khảo sát mạch máu tạng bằng máy CT Scan SIEMENS 128 slices trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MPR, MIP và các phần mềm ứng dụng khác. \nMô tả: Bn HCC/xơ gan, VGB (-), AFP (-), Biopsy (+) HCC 3/2024. TACE gần nhất T12/2024, so sánh với phim chụp làn trước, ngày 17/3/25, hiện tại thấy:\n- Gan teo, bờ mấp mô đều, nhu mô thô không đồng nhất. HCC gan (T), khối lớn # 6cm và khối nhỏ # 4.8cm đã TACE 2 lần - T3-12/2024, hiện tại hoại tử phần lớn, phần rìa chưa nút hết, tăng ngấm thuốc hình viền, chỗ dày nhất # 8mm nay tăng lên # 25mm \n- Tĩnh mạch cửa không giãn, không thấy huyết khối. Giãn lớn tĩnh mạch thực quản và tm phình vị\n- Đường mật trong và ngoài gan không giãn, không thấy sỏi tăng tỷ trọng.\n- Túi mật không giãn, thành mỏng, không thấy sỏi tăng tỷ trọng, xung quanh có ít dịch. \n- Tuỵ, thận hai bên chưa phát hiện tổn thương đặc hiệu. \n- Lách hơi lớn, nhu mô đồng nhất.\n- Ổ bụng không thấy hạch to, ít dịch dưới bao gan 15mm.\n* Lưu ý: đoạn cuối thực quản - tâm vị: có hình ảnh dày - sùi bất thường, lồi vào lòng, gây hẹp khít lòng thực quản, lệch tâm không đều. \nKết luận\nBn HCC/xơ gan, VGB (-), AFP (-) => Biopsy (+) HCC => Nút mạch TACE 2 lần: T3 & T12/2024, so sánh với phim chụp ngày 17/3/25, hiện tại thấy:\n- HCC GAN (T) 2 Ổ LỚN, SAU TACE 2 LẦN HOẠI TỬ PHẦN LỚN, PHẦN RÌA RÌA CHƯA NÚT HẾT NGẤM THUỐC DẠNG VIỀN DÀY 8MM TĂNG LÊN # 25MM\n- XƠ TEO GAN \n- GIÃN LỚN TM THỰC QUẢN & TM PHÌNH VỊ.\n- DÀY - SÙI GÂY HẸP ĐOẠN THẤP LÒNG THỰC QUẢN ĐẾN SÁT TÂM VỊ CHƯA RÕ BẢN CHẤT - CHƯA LOẠI TRỪ K\n- BN ĐÃ THAY KHỚP HÁNG NHÂN TẠO TOÀN PHẦN 2 BÊN\nĐề nghị\nNỘI SOI SINH THIẾT THỰC QUẢN. HỘI CHẨN LẠI SAU KHI CÓ KẾT QUẢ KHÁM NGHIỆM TỔNG THỂ\n-------------------------------------------------------------------------------------------------\nNội soi tiêu hóa dưới gây mê (dạ dày -tá tràng): \nMô tả\nĐọc kết quả\n- Thực quản:     Giãn tĩnh mạch thực quản độ III, có dấu đỏ. Cách CRT ~ 25-32 cm có đám niêm mạc đổi màu, bao quanh toàn bộ chu vi, trên bề mặt có vài đám tổn thương lần sần chiếm chủ yếu trên bề mặt búi giãn tĩnh mạch. \n- Tâm vị:             Niêm mạc phù nề, xung huyết\n- Phình vị:          Niêm mạc phù nề, xung huyết\n- Thân vị:           Niêm mạc phù nề, xung huyết\n- Bờ cong nhỏ:  Niêm mạc phù nề, xung huyết\n- Hang vị:           Niêm mạc phù nề, xung huyết\n- Môn vị:            Lỗ môn vị tròn\n- Tá tràng:          Bình thường\n- Sinh Thiết:      Không      \nKết luận\nTỔN THƯƠNG THỰC QUẢN TD K\nGIÃN TĨNH MẠCH THỰC QUẢN ĐỘ III\nVIÊM DẠ DÀY \nĐề nghị\nNội soi sinh thiết\n-------------------------------------------------------------------------------------------------------------------------\nNội soi thực quản, dạ dày, tá tràng kết hợp sinh thiết: \nMô tả\nĐọc kết quả\n- Thực quản:     Giãn tĩnh mạch thực quản độ III, có dấu đỏ. Cách CRT ~ 25-32 cm có đám niêm mạc đổi màu, bao quanh toàn bộ chu vi, trên bề mặt có vài đám tổn thương lần sần chiếm chủ yếu trên bề mặt búi giãn tĩnh mạch.  Đã sinh thiết 03 mẫu làm GPB\n- Tâm vị:             Niêm mạc phù nề, xung huyết\n- Phình vị:          Niêm mạc phù nề, xung huyết\n- Thân vị:           Niêm mạc phù nề, xung huyết\n- Bờ cong nhỏ:  Niêm mạc phù nề, xung huyết\n- Hang vị:           Niêm mạc phù nề, xung huyết\n- Môn vị:            Lỗ môn vị tròn\n- Tá tràng:          Bình thường\n- Sinh Thiết:      Có      \nKết luận\nTỔN THƯƠNG THỰC QUẢN TD K\nGIÃN TĨNH MẠCH THỰC QUẢN ĐỘ III\nVIÊM DẠ DÀY \nĐề nghị\n-----------------------------------------------------------------------------------------------------------------\nXét nghiệm mô bệnh học thường quy cố định, chuyển, đúc, cắt, nhuộm…các bệnh phẩm sinh thiết: \nMô tả\nĐọc kết quả\nSố tiêu bản: 4592/2025.\nĐại thể:  02 mẫu đk 0,1cm.\nVi thể: Sinh thiết thấy biểu mô vẩy không sừng hoá quá sản, loạn sản hết biểu mô, ít cầu sừng, không khảo sát được xâm nhập.\nKết luận\nUng thư biểu mô vẩy không sừng hoá, không khảo sát được xâm nhập."
+        },
+        {
+          "ngay_xet_nghiem": "21/07/2025",
+          "xet_nghiem_mau": "",
+          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính lồng ngực có tiêm thuốc cản quang (từ 64- 128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT lồng ngực trên máy 128 dãy có tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MIP, MPR, 3D:\nMô tả:\n- Thực quản đoạn ngực có hình ảnh thành dày, sau tiêm thuốc thì tĩnh mạch thấy giãn tĩnh mạch dưới niêm mạc chỗ giãn lớn nhất ~12mm. \n- Phổi phải: Không thấy hình ảnh khối choán chỗ bất thường nhu mô phổi. Không thấy dày tổ chức kẽ phổi. Không thấy giãn phế quản. Không thấy giãn phế nang. Không thấy tràn khí màng phổi. Không thấy tràn dịch khoang màng phổi.\n- Phổi trái: Không thấy hình ảnh khối choán chỗ bất thường nhu mô phổi. Không thấy dày tổ chức kẽ phổi. Không thấy giãn phế quản. Không thấy giãn phế nang. Không thấy tràn khí màng phổi. Không thấy tràn dịch khoang màng phổi.\n- Không thấy hạch to trong trung thất.\n- Tim không to, không có dịch khoang màng ngoài tim.  \n- Không thấy tổn thương xương lồng ngực.\n- Không thấy tổn thương phần mềm thành ngực.\nKết luận\nHình ảnh dày thành thực quản đoạn ngực. Giãn lớn tĩnh mạch thực quản. \nĐề nghị\nKết hợp nội soi thực quản khảo sát thêm."
+        }
+      ],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2500128283",
+      "ho_ten": "PHAN MINH TRIỆN",
+      "tuoi": "77 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Thôn 8-Xã Nam Trạch--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "Buồng 6",
+      "giuong": "H050",
+      "chan_doan": "Ung thư gan giai đoạn B",
+      "thoi_gian": "14/07/2025 08:30",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "08:30 14/07/2025",
+          "ngay_dien_bien": "14/07/2025",
+          "gio_dien_bien": "08:30",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân được chẩn đoán xác định Ung thư gan giai đoạn B đã nút mạch 1 lần  tại khoa ngoại TH. Mấy ngày nay đau bụng nhiều, buồn nôn, ăn uống kém chưa điều trị gì xin nhập viện điều trị.\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan giai đoạn B",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h30\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h30 - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h30 - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h30\nCS: 03 \nBT18\n- Tổng phân tích tế bào máu ngoại vi.\n- Creatinin, glucose, protein, albumin, billirubin toàn phần, billirubin trực tiếp, AFP GPT, GOT, điện giải đồ (Na, K, Cl). .\n- Đông máu: Thời gian prothrombin, fibrinogen, thời gian thromboplastin, thời gian thrombin.\n- Siêu âm bụng.\n- Xq ngực thẳng.\n- Điện tim thường (ECG).\n- Siêu âm tim.\n- 10 thông số nước tiểu."
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 15/07/2025",
+          "ngay_dien_bien": "15/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 16/07/2025",
+          "ngay_dien_bien": "16/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 17/07/2025",
+          "ngay_dien_bien": "17/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 18/07/2025",
+          "ngay_dien_bien": "18/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 19/07/2025",
+          "ngay_dien_bien": "19/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 20/07/2025",
+          "ngay_dien_bien": "20/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 21/07/2025",
+          "ngay_dien_bien": "21/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "2",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 22/07/2025",
+          "ngay_dien_bien": "22/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "3",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Vinzix 40mg                                      x      01 Viên\n                     Uống 8h\nVEROSPIRON 50mg (50mg)             x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      02 Viên\n                     Uống 8h - 20h\nSaVi Tenofovir 300mg                           x     01 Viên\n                     Uống 8h\nCS: 03 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 23/07/2025",
+          "ngay_dien_bien": "23/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "4",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(1) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 24/07/2025",
+          "ngay_dien_bien": "24/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "4",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(2) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 25/07/2025",
+          "ngay_dien_bien": "25/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "5",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(3) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 26/07/2025",
+          "ngay_dien_bien": "26/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "5",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(4) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 27/07/2025",
+          "ngay_dien_bien": "27/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "6",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "",
+          "chi_dinh": "Natri Clorid 0,9% 500ml                         x    01 Chai   \nGlucose 10% 500ml                               x    01 Chai \n                     Truyền TM XL g/p \n(5) Dexamethason 4mg/1ml                   x    02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nPantoprazole 40mg (40mg)                   x     01 Lọ\nNước cất pha tiêm 5ml                      x     02 Ống\n                     Tiêm tĩnh mạch chậm 8h \nVinzix 20mg/2ml                                   x      02 Ống\n                     Tiêm tĩnh mạch chậm 8h\nVEROSPIRON 50mg (50mg)             x       01 Viên\n                     Uống 8h\n(T2) Hergamin 140mg                         x       02 Viên\n                     Uống 8h - 16h\nParatramol (37,5 mg  325 mg)            x      04 Viên\n                     Uống 8h - 20h\nCS: 02 \nBT18"
+        },
+        {
+          "ngay_gio_y_lenh": "08:00 28/07/2025",
+          "ngay_dien_bien": "28/07/2025",
+          "gio_dien_bien": "08:00",
+          "to_so": "6",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân ung thư gan giai đoạn B vào nút mạch gan + nội khoa giảm nhẹ hiện tại ổn định\nΔ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ\n-> Đề nghị cho ra viện",
+          "chi_dinh": "- Làm thủ tục ra viện\n- Hẹn tái khám 2 tháng\n- Thuốc ngoại trú\nSaVi Tenofovir 300mg                           x     07 Viên \n                     Tiêm tĩnh mạch chậm 8h"
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "14/07/2025",
+          "xet_nghiem_mau": "Định lượng Protein toàn phần [Máu](66 - 87): 69,4\nĐo hoạt độ ALT (GPT) [Máu](< 41.0): 22\nĐo hoạt độ AST (GOT) [Máu](< 40.0): 36,3\nĐịnh lượng Bilirubin trực tiếp [Máu](0 - 4,3): 2,2\nĐịnh lượng Bilirubin toàn phần [Máu](0 - 21): 17,4\nĐịnh lượng Creatinin (máu)\nĐịnh lượng Creatinin (máu) (62 - 106): 98\neGFR: 63.89\nĐịnh lượng Albumin [Máu](35 - 52): 42,5\nĐiện giải đồ (Na, K, Cl) [Máu]\nĐiện giải đồ (Na, K, Cl) [Máu]: \nNa+ (135 - 145): 140,3\nK+ (3,5 - 5,1): 3,42\nCl- (98 - 107): 102,72\nĐịnh lượng AFP (Alpha Fetoproteine) [Máu](0 - 5,8): 1.78\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động\nThời gian prothrombin (PT: Prothrombin Time), (Các tên khác: TQ; Tỷ lệ Prothrombin) bằng máy tự động (11.0 - 14.0): 11,2\nTỷ lệ Prothrombin (70-140): 92,9\nINR (0.80 - 1.20): 1,07\nThời gian thromboplastin một phần hoạt hóa (APTT: Activated Partial Thromboplastin Time), (Tên khác: TCK) bằng máy tự động\nThời gian thromboplastin một phần hoạt hoá (APTT: Activated Partial Thromboplastin Time), (Tên khác: TCK) bằng máy tự động: 27,3\nrAPTT (bệnh/chứng) (0.85 - 1.25): 1,03\nThời gian thrombin (TT: Thrombin Time) bằng máy tự động\nThời gian thrombin (TT: Thrombin Time) bằng máy tự động: 17,9\nrTT (bệnh/chứng) (0.85 - 1.25): 0,99\nĐịnh lượng Fibrinogen (Tên khác: Định lượng yếu tố I), phương pháp Clauss- phương pháp trực tiếp, bằng máy tự động(2 - 4): 3,64\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)\nTổng phân tích tế bào máu ngoại vi (bằng máy đếm laser): \nWBC (4,5 - 10,3): 5.7\nNEU# (2,1 - 6,1): 4.1\nNEU% (50 - 70): 72.1\nLYM# (1,3 - 3,5): 0.9\nLYM% (20 - 44): 15.4\nMONO# (0,3 - 0,8): 0.51\nMONO% (5,1 - 9): 8.90\nEOS# (<= 0,5): 0.18\nEOS% (0,9 - 4): 3.20\nBASO# (<= 0,2): 0.02\nBASO% (0,3 - 1,5): 0.40\nRBC (4,38 - 5,77): 4.47\nHGB (136 - 172): 135\nHCT (40 - 50): 41.4\nMCV (80,7 - 95,5): 92.6\nMCH (27,2 - 33,5): 30.2\nMCHC (327 - 356): 326\nRDW (11 - 13,4): 14.2\nPLT (156 - 373): 154\nMPV (7,4 - 12): 11.4\nPCT (0,17 - 0,35): 0.18\nPDW: 12.0\nLUC% (0 - 4): 0.0\nLUC#: 0.0\nTổng phân tích nước tiểu (Bằng máy tự động)\nTổng phân tích nước tiểu (Bằng máy tự động): \nSG (1,005 - 1,025): 1.026\npH (4,8 - 8): 6\nURO (Normal): 17\nLEU (Negative): neg\nNIT (Negative): neg\nPRO (Negative): 0.25\nGLU (Normal): norm\nKET (Negative): neg\nBIL (Negative): 17\nERY (<= 5): neg\nĐịnh lượng Glucose [Máu](4,11 - 5,89): 4,5",
+          "xet_nghiem_hinh_anh": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang): \nMô tả\nĐọc kết quả\n- Gan: Nhu mô gan HPT III có cấu trúc hồi âm hỗn hợp, kích thước 23x26mm, bên trong lắng đọng vật liệu nút mạch. HPT VII có cấu trúc hồi âm hỗn hợp, kích thước 22x21mm, bên trong lắng đọng vật liệu nút mạch. \n- Tĩnh mạch cửa không giãn.\t\n- Đường mật: Đường mật trong và ngoài gan không giãn, không có sỏi.\t\n- Túi mật: Không to, dịch trong, thành mỏng đều, không có sỏi.\t\n- Tụy: Nhu mô đồng nhất kích thước bình thường, ống wirsung không giãn.\t\n- Lách: Nhu mô đồng nhất kích thước bình thường.\t\n- Thận phải: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ.\t\nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Thận trái: Kích thước bình thường, ranh giới giữa nhu mô đài bể thận rõ, \nĐài bể thận không giãn, không có sỏi. Niệu quản không giãn.\t\n- Bàng Quang: Không có nước tiểu \n- Tiền liệt tuyến: Khó khảo sát \n- Dịch ổ bụng: Không có dịch.\t\n* Ghi chú: \nKết luận\nHình ảnh u gan sau TACE."
+        },
+        {
+          "ngay_xet_nghiem": "15/07/2025",
+          "xet_nghiem_mau": "",
+          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy): \nMô tả\nĐọc kết quả\nKỹ thuật: \nChụp CLVT ổ bụng trên máy 128 dãy trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm, tái tạo mỏng 1mm, MPR, MIP.\nMô tả: Bn HCC đa ổ gan (P) & (T) (xn 24/2/25: VGB (+), AFP 25), sau nút mạch (TACE1 03/3/2025), Hiện tại thấy: \n- Gan\n+ HCC đa ổ: gan (P) phân thùy sau # 30mm và Hpt IV # 45 x 37mm sau nút mạch lần 1 đã ngấm vật liệu nút mạch tốt, bán phần, phần còn lại của 2 u chưa nút hết, nằm xen kẽ, vùng rìa giàu mạch, ngấm thuốc cản quang mạnh thì động mạch, thải nhanh thì tĩnh mạch. \n+ Nhu mô gan không to, bờ mấp mô đều, nhu mô thô không đồng nhất.\n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi tăng tỉ trọng\n- Tụy, lách, thận 2 bên không phát hiện tổn thương dặc hiệu. Thận (T) có nang 20mm. \n- Ổ bụng không thấy hạch to, không thấy dịch tự do. \nKết luận\n- HCC ĐA Ổ GAN (P) & (T) THUYÊN GIẢM BÁN PHẦN SAU NÚT MẠCH LẦN I - T3/2025.\n- PHẦN CÒN LẠI GIÀU MẠCH, NGẤM THUỐC CẢN QUANG MANH\n- XƠ GAN - NANG ĐƠN THUẦN THẬN T\nĐề nghị\nHỘI CHẨN XÉT NÚT MẠCH PHẦN U CÒN LẠI"
+        }
+      ],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": true,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "08",
+        "thoi_gian_hc_phut": "00",
+        "thoi_gian_hc_ngay": "21/07/2025",
+        "dia_diem_hc": "Khoa Ung Bướu",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "Nút mạch gan",
+        "thanh_vien": "Bs Nguyễn Đức Hùng",
+        "tom_tat_tinh_trang": "Bệnh nhân tiền sử ung thư gan giai đoạn B đã nút mạch 1 lần (T5/2025) nay vào nút mạch lần 2 theo hẹn\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Tim phổi chưa nghe bệnh lý\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- HBsAg (+), AFP: 1,78 IU/ml\n- CT: - HCC ĐA Ổ GAN (P) & (T) THUYÊN GIẢM BÁN PHẦN SAU NÚT MẠCH LẦN I - T3/2025.\n- PHẦN CÒN LẠI GIÀU MẠCH, NGẤM THUỐC CẢN QUANG MANH\n- XƠ GAN - NANG ĐƠN THUẦN THẬN T",
         "van_de_hc": "Δ: Ung thư gan giai đoạn B\nθ: Nút mạch gan + nội khoa điều trị hỗ trợ",
         "ket_luan_hc": "Δ: Ung thư gan giai đoạn B\nPTV: Bs Nguyễn Đức Hùng"
       }

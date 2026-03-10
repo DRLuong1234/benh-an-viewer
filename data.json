@@ -173,7 +173,25 @@
         }
       ],
       "tests": [],
-      "hoi_chan": {}
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": false,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "23",
+        "thoi_gian_hc_phut": "43",
+        "thoi_gian_hc_ngay": "08/03/2026",
+        "dia_diem_hc": "",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "",
+        "thanh_vien": "",
+        "tom_tat_tinh_trang": "",
+        "van_de_hc": "",
+        "ket_luan_hc": ""
+      }
     },
     {
       "ma_benh_nhan": "2600037460",
@@ -199,6 +217,117 @@
       ],
       "tests": [],
       "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600037801",
+      "ho_ten": "ĐOÀN DƯƠNG TOẢ",
+      "tuoi": "64 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Phường Đồng Thuận--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn B / Viêm gan B",
+      "thoi_gian": "09/03/2026 08:00",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "08:00 09/03/2026",
+          "ngay_dien_bien": "09/03/2026",
+          "gio_dien_bien": "08:00",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử viên gan B > 20 năm không điều trị thường xuyên. Đầu tháng 1 năm 2026 bệnh nhân đau âm ỉ hạ sườn phải đi khám phát hiện U gan (AFP: 3,81 UI/ml) sau đó được sinh thiết tổn thương gan (KQ: Ung thư biểu mô tế bào gan biệt hóa tốt) và đã được TACE lần 1. Nay tái khám phát hiện khối còn ngấm thuốc, tăng sinh mạch nên nhập viện nút mạch lần II\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. Child-pugh A, ALBI Grade 1 \n- AFP: 3.07 UI/ml\n- CT: HÌNH ẢNH HCC GAN ĐA Ổ THÂM NHIỄM (HPT I, VI, VII - VIII) \n- TỔN THƯƠNG LỚN NHẤT Ở HPT VII - VIII SAU TACE 1 ĐÃ HOẠI TỬ DỊCH HÓA GẦN HOÀN TOÀN\n- CÁC TỔN THƯƠNG NHỎ KHÁC CHƯA NÚT MẠCH\n- XƠ GAN\nΔ: Ung thư gan nguyên phát giai đoạn B/ viêm gan B",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": false,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "14",
+        "thoi_gian_hc_phut": "22",
+        "thoi_gian_hc_ngay": "09/03/2026",
+        "dia_diem_hc": "",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "",
+        "thanh_vien": "",
+        "tom_tat_tinh_trang": "",
+        "van_de_hc": "",
+        "ket_luan_hc": ""
+      }
+    },
+    {
+      "ma_benh_nhan": "2600038507",
+      "ho_ten": "LÊ VĂN CỪU",
+      "tuoi": "71 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Thôn Sao Sa-Xã Nam Trạch--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "7",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C / Viêm gan B",
+      "thoi_gian": "09/03/2026 14:40",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "14:40 09/03/2026",
+          "ngay_dien_bien": "09/03/2026",
+          "gio_dien_bien": "14:40",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân phát hiện ung thư gan cách đây 6 tháng đã TACE 1 lần ( tháng 11/2025), điều trị chăm sóc giảm nhẹ nhiều đợt. Nay bệnh nhân đau bụng, u gan lớn nên vào viện\nHiện tại: \nTỉnh, tiếp xúc tốt\nDa niêm mạc vàng\nChưa sờ thấy hạch ngoại vi\nĂn uống kém\nĐau bụng hạ sườn phải, phản ứng thành bụng (-)\nBụng mềm, gan lớn dưới bờ sườn\nNước tiểu vàng trong\nChạm thận (-), Bập bềnh thận (-)\nKhông đau ngực\nNhịp tim đều\nKhông ho\nRì rào phế nang rõ\nPhổi chưa nghe rale",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600033194",
+      "ho_ten": "TRẦN ĐỨC TÍNH",
+      "tuoi": "90 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Xã Kim Phú--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "1",
+      "giuong": "",
+      "chan_doan": "TD Ung thư gan / THA - tai biến",
+      "thoi_gian": "09/03/2026 14:30",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "14:30 09/03/2026",
+          "ngay_dien_bien": "09/03/2026",
+          "gio_dien_bien": "14:30",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử tăng huyết áp điều trị thường xuyên. Cách đây 7 ngày bệnh nhân xuất hiện co giật, mất ý thức nhập viện Nội tim mạch với chẩn đoán Nhồi máu não điều trị hiện tại ổn định, phát hiện u gan chưa rõ bản chất chuyển Ung bướu điều trị tiếp\nHiện tại:\nTỉnh, tiếp xúc tốt\nDa niêm mạc hồng\nChưa sờ thấy hạch ngoại vi\nKhông đau bụng\nBụng mềm, gan lách chưa sờ thấy\nĐại tiện phân vàng khuôn\nNước tiểu vàng trong\nChạm thận (-), Bập bềnh thận (-)\nKhông yếu liệt\nKhông đau ngực\nNhịp tim đều\nKhông ho\nRì rào phế nang rõ\nCtscanner: Gan không to, bờ đều, nhu mô gan HPT III-IV có khối 36x50mm, bờ không đều ngấm thuốc mạnh thì động mạch, thì tĩnh mạch cửa thải thuốc nhanh.",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": false,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "11",
+        "thoi_gian_hc_phut": "17",
+        "thoi_gian_hc_ngay": "10/03/2026",
+        "dia_diem_hc": "",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "",
+        "thanh_vien": "",
+        "tom_tat_tinh_trang": "",
+        "van_de_hc": "",
+        "ket_luan_hc": ""
+      }
     }
   ],
   "discharged": [

@@ -1,49 +1,6 @@
 {
   "patients": [
     {
-      "ma_benh_nhan": "2600076130",
-      "ho_ten": "HỒ VĂN NGỌC",
-      "tuoi": "46 tuổi",
-      "gioi_tinh": "Nam",
-      "dia_chi": "Chân Trộng-Xã Trường Sơn--Tỉnh Quảng Trị",
-      "khoa": "Ung bướu",
-      "phong": "7",
-      "giuong": "",
-      "chan_doan": "Ung thư gan nguyên phát giai đoạn C",
-      "thoi_gian": "06/05/2026 09:40",
-      "treatments": [
-        {
-          "ngay_gio_y_lenh": "09:40 06/05/2026",
-          "ngay_dien_bien": "06/05/2026",
-          "gio_dien_bien": "09:40",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Khởi bệnh T11/24, phát hiện u gan Hpt VI # 4.5 x 5.5cm => xn: VGB (+), AFP 34 => HCC => T12/2024 PT cắt u gan và túi mật => GPB sau cắt U: HCC => T2/25: hết U và AFP = 2. T12/25 tái khám Cuba: AFP tăng lên 56, CTscan tái phát diện rộng cạnh diện cắt => TACE. Đến T3/2026 TACE 1 lần nay vào viện điều trị tiếp\nHiện tại:\nTỉnh, tiếp xúc tốt, da niêm mạc hồng\nTim nhịp đều\nKhông ho\nPhổi thông khí rõ\n Bụng mềm, ấn không đau\nĐại tiện phân vàng khuôn \nNước tiểu vàng trong",
-          "chi_dinh": ""
-        }
-      ],
-      "tests": [],
-      "hoi_chan": {
-        "de_xuat_cua": "Ung Bướu",
-        "hc_khoa": false,
-        "hc_lienkhoa": false,
-        "hc_toanvien": false,
-        "hc_lienbenhvien": false,
-        "hc_khac": "",
-        "thoi_gian_hc_gio": "23",
-        "thoi_gian_hc_phut": "46",
-        "thoi_gian_hc_ngay": "06/05/2026",
-        "dia_diem_hc": "",
-        "chu_toa": "Bs Bùi Vĩ Nhân",
-        "thu_ky": "Bs Trương Quang Lương",
-        "ly_do_hc": "",
-        "thanh_vien": "",
-        "tom_tat_tinh_trang": "",
-        "van_de_hc": "",
-        "ket_luan_hc": ""
-      }
-    },
-    {
       "ma_benh_nhan": "2600077702",
       "ho_ten": "NGUYỄN KHANH",
       "tuoi": "72 tuổi",
@@ -75,68 +32,6 @@
       "hoi_chan": {}
     },
     {
-      "ma_benh_nhan": "2600080527",
-      "ho_ten": "HOÀNG THỊ THIÊN",
-      "tuoi": "69 tuổi",
-      "gioi_tinh": "Nữ",
-      "dia_chi": "Phường Đồng Hới--Tỉnh Quảng Trị",
-      "khoa": "Ung bướu",
-      "phong": "2",
-      "giuong": "",
-      "chan_doan": "Ung thư gan nguyên phát giai đoạn B ",
-      "thoi_gian": "13/05/2026 15:25",
-      "treatments": [
-        {
-          "ngay_gio_y_lenh": "15:25 13/05/2026",
-          "ngay_dien_bien": "13/05/2026",
-          "gio_dien_bien": "15:25",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Khởi bệnh từ tháng 8 năm 2025 với đau hạ sườn phải đi khám được chẩn đoán ung thư gan nguyên phát đã được phẫu thuật cắt gan tại bệnh viện TW Huế, đến tháng 10 tái khám phát hiện tái phát đã được đốt RF sau đốt bệnh ổn định. Đến tháng 4/2026 phát hiện khối u tái phát kích thước khoảng 20mm nhưng không điều trị gì. Nay tái khám u tăng kích thước lên 30mm lo lắng nên nhập viện\nHiện tại: \n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch ngoại vi chưa sờ thấy.\n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiế\nng bệnh lý\n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy.\nΔ: Ung thư gan nguyên phát giai đoạn B",
-          "chi_dinh": ""
-        }
-      ],
-      "tests": [
-        {
-          "ngay_xet_nghiem": "13/05/2026",
-          "xet_nghiem_mau": "Định lượng AFP (Alpha Fetoproteine) [Máu] 0 - 5,8 2.10 IU/mL",
-          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy) [Ngày CĐ:13/05/2026 07:22] [Ngày BĐ: 13/05/2026 10:28] [Ngày KT: 13/05/2026 10:29]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: \nChụp CLVT ổ bụng trên máy MSCT 128 dãy SIEMENS GOTOP trước và sau tiêm thuốc cản quang tĩnh mạch.\nMô tả: Bệnh sử: Bn có tiền sử Viêm B đã lâu, hiên tại đang dùng thuốc điều trị virut. T7/25: SA CuBa phát hiện U gan, AFP (-) => Huế => T8/25: PT cắt gan Phân thùy trước và túi mật => GPB đại thể sau PT: kết quả HCC => 29/9/25: Tái phát => T10/25: Huế RFA. Tái khám chụp CT Scan 5/2 & 08/4/2026. Nay 13/6/26 tái khám, thấy:\n- Gan: \n+ Tổn thương cũ: Đã cắt phân thùy trước và túi mật, diện cắt hiện tại ổn định. Tái phát ở Hpt VIII đã đốt RFA. \n+ Tổn thương mới: Phân Hpt VII - phân thùy sau gan (P), cạnh u cũ đã đốt RFA có tổn thương mới tăng dần kích thước theo thời gian, hiện tại # 25mm, sau tiêm ngấm thuốc mạnh thì động mạch, thải nhanh thì tĩnh mạch. \n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan không giãn, không thấy sỏi tăng tỷ trọng.\n- Túi mật: đã cắt.\n- Tuỵ, Lách, thận 2 bên: chưa phát hiện tổn thương đặc hiệu. \n- Ổ bụng không thấy hạch to.\n\nKết luận:\n\n- HCC ĐÃ PHẪU THUẬT CẮT HẠ PHÂN THÙY TRƯỚC VÀ TÚI MẬT\n- TỔN THƯƠNG TÁT PHÁT PHÂN THÙY SAU ĐÃ ĐỐT RFA\n- TỔN THƯƠNG MỚI CẠNH DIỆN ĐỐT Ở HPT VII TÁI PHÁT, KÍCH THƯỚC # 32MM. \n- XƠ GAN\n\nĐề nghị:\n\nNHẬP VIỆN ĐIỀU TRỊ, CÓ CHỈ ĐỊNH NÚT MẠCH TACE"
-        }
-      ],
-      "hoi_chan": {}
-    },
-    {
-      "ma_benh_nhan": "2600084248",
-      "ho_ten": "CAO VĂN DI",
-      "tuoi": "64 tuổi",
-      "gioi_tinh": "Nam",
-      "dia_chi": "Hóa Lương-Xã Kim Điền--Tỉnh Quảng Trị",
-      "khoa": "Ung bướu",
-      "phong": "5",
-      "giuong": "",
-      "chan_doan": "Ung thư gan nguyên phát giai đoạn B ",
-      "thoi_gian": "18/05/2026 09:20",
-      "treatments": [
-        {
-          "ngay_gio_y_lenh": "09:20 18/05/2026",
-          "ngay_dien_bien": "18/05/2026",
-          "gio_dien_bien": "09:20",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Bn lâu nay không đi khám nên không biết bệnh. Ngày 05/2/26 => đau bụng dữ dội, đột ngột => BV Minh Hóa => Cuba: Bn trụy mạch, có u gan, HBsAg 6571, AFP 2317, Siêu âm & CLVT khối u vỡ, chảy máu ổ bụng lượng => HCC vỡ chảy máu ổ bụng lượng nhiều tiến triển => Nút mạch cầm máu cấp cứu kết hợp TACE. 19/3/26: Nút mạch TACE 2. Tái khám phát hiện thấy u tăng sinh mạch nên nhập viện điều trị\nHiện tại:\n - Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch ngoại vi chưa sờ thấy. \n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- CT: HCC ĐA Ổ VỠ ĐÃ ĐƯỢC NÚT MẠCH NAY HOẠI TỬ, XƠ HÓA BÁN PHẦN, PHẦN CÒN LẠI CHƯA NÚT HẾT GIÀU MẠCH\n- XƠ GAN\n- AFP: 21216 UI/ml\nΔ: Ung thư gan nguyên phát giai đoạn B",
-          "chi_dinh": ""
-        }
-      ],
-      "tests": [
-        {
-          "ngay_xet_nghiem": "06/05/2026",
-          "xet_nghiem_mau": "AFP: 21216",
-          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy) [Ngày CĐ:06/05/2026 11:18] [Ngày BĐ: 06/05/2026 16:26] [Ngày KT: 06/05/2026 16:27]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: Chụp CLVT ổ bụng trên máy MSCT 128 dãy SIEMENS GOTOP trước và sau tiêm thuốc cản quang tĩnh mạch.\nMô tả: Bn lâu nay không đi khám nên không biết bệnh. Ngày 05/2/26 => đau bụng dữ dội, đột ngột => BV Minh Hóa => Cuba: Bn trụy mạch, có u gan, HBsAg 6571, AFP 2317, Siêu âm & CLVT khối u vỡ, chảy máu ổ bụng lượng => HCC vỡ chảy máu ổ bụng lượng nhiều tiến triển => Nút mạch cầm máu cấp cứu kết hợp TACE. 19/3/26: Nút mạch TACE 2. Nay 06/4/26, tái khám, thấy: \n- GAN: \n+ HCC đa ổ lớn. Ổ ở Hpt V vỡ sau nút mạch cầm máu kết hợp TACE đã hoại tử, thuyên giảm, phần viền chưa nút hết. Khối ở Hpt IV # 80mm và Hpt III # 30mm sau nút mạch hoại tử bán phần. Phần còn lại chưa nút hết giàu mạch tân sinh. \n+ Nhu mô gan còn lại thô, không đồng nhất, đường bờ không đều, \n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi tăng tỷ trọng.\n- Ống mật chủ không giãn, không thấy sỏi tăng tỷ trọng. \n- Tuỵ, lách, thận 2 bên: chưa phát hiện tổn thương đặc hiệu.\n- Chưa rõ tổn thương đặc hiệu khác trên phim \n\nKết luận:\n\n- HCC ĐA Ổ VỠ ĐÃ ĐƯỢC NÚT MẠCH NAY HOẠI TỬ, XƠ HÓA BÁN PHẦN, PHẦN CÒN LẠI CHƯA NÚT HẾT GIÀU MẠCH\n- XƠ GAN\n\nĐề nghị:\n\nNHẬP VIỆN, NÚT MẠCH TACE LẦN TIẾP THEO KẾT HỢP ĐIỀU TRỊ ĐÍCH"
-        }
-      ],
-      "hoi_chan": {}
-    },
-    {
       "ma_benh_nhan": "2600083886",
       "ho_ten": "MAI VĂN ĐẠM",
       "tuoi": "69 tuổi",
@@ -163,37 +58,6 @@
           "ngay_xet_nghiem": "28/04/2026",
           "xet_nghiem_mau": "AFP: 1.94",
           "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy) [Ngày CĐ:28/04/2026 07:37] [Ngày BĐ: 28/04/2026 09:45] [Ngày KT: 28/04/2026 09:46]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: Chụp CLVT ổ bụng trên máy MSCT 128 dãy SIEMENS GOTOP trước và sau tiêm thuốc cản quang tĩnh mạch.\nMô tả: Bn phát hiện HCC T5/2023/Xơ gan (2013) với AFP 135 => TACE 3 lần: T6 - 7 - 8/23. Sau nút mạch ổn định qua nhiều tái khám nhiều lần. T7/25 phát hiện tại phát => TACE 4: T8/25. hiện tại thấy:\n- Gan: \n+ Tổn thương cũ: HCC đa ổ gan (P) và (T) đáp ứng tốt sau nút mạch nhiều lần, lần cuối T8/25, hiện tại các tổn thương này đáp ứng ngấm vật liệu nút mạch tốt. Tổn thương dạng u vỡ dưới bao gan cũ ở Hpt VI. \n+ Tổn thương mới: Hpt V, sát túi mật, có vùng tổn thương đường bờ không đều, giới hạn không rõ, vị trí đo được # 40mm. Hpt VIII - đỉnh gan, sát vòm hoành có ổ ngấm thuốc mới # 13mm. \n+ Phần gan còn lại xơ teo không đều, bờ mấp mô, nhu mô thô không đồng nhất\n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan không giãn, không thấy sỏi tăng tỷ trọng.\n- Túi mật: teo nhỏ, bên trong có sỏi mật, thành dày không đều.\n- Tuỵ, lách, thận 2 bên không phát hiện tổn thương đặc hiệu.\n- Ổ bụng không thấy hạch to, không thấy dịch tự do.\n- Chưa phát hiện tổn thương đặc hiệu khác trên phim. \n\nKết luận:\n\n- TỔN THƯƠNG CŨ HCC ĐA Ổ GAN (P) & (T) TACE NHIỀU LẦN TỪ T5/23: HIỆN TẠI ĐÁP ỨNG TỐT, ỔN ĐỊNH\n- TỔN THƯƠNG HCC TÁI PHÁT T7/25: ĐÁP ỨNG NÚT MẠCH TỐT. \n- TỔN THƯƠNG MỚI: HPT V: THỂ THÂM NHIỄM QUANH TÚI MẬT # 40MM. HPT VIII - SÁT VÒM HOÀNH _ ĐỈNH GAN: 12MM.\n- XƠ TEO GAN\n- TD SỎI TÚI MẬT/VIÊM TÚI MẬT MẠN.\n\nĐề nghị:\n\nHỘI CHẨN NÚT MẠCH TACE TIẾP SAU 1 THÁNG"
-        }
-      ],
-      "hoi_chan": {}
-    },
-    {
-      "ma_benh_nhan": "2600084188",
-      "ho_ten": "CAO PHƯỜNG",
-      "tuoi": "44 tuổi",
-      "gioi_tinh": "Nam",
-      "dia_chi": "Xã Kim Điền--Tỉnh Quảng Trị",
-      "khoa": "Ung bướu",
-      "phong": "1",
-      "giuong": "",
-      "chan_doan": "Ung thư gan nguyên phát giai đoạn C ",
-      "thoi_gian": "18/05/2026 11:30",
-      "treatments": [
-        {
-          "ngay_gio_y_lenh": "11:30 18/05/2026",
-          "ngay_dien_bien": "18/05/2026",
-          "gio_dien_bien": "11:30",
-          "to_so": "1",
-          "bac_si_dieu_tri": "Bs Trương Quang Lương",
-          "dien_bien": "Bệnh nhân tiền sử viêm gan B đã lâu không điều trị. Đau bụng khoảng 1 tháng không điều trị gì. Mấy ngày nay đau tăng đi khám phát hiện u gan nên nhập viện\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch  ngoại vi chưa sờ thấy. \n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T 2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- HBsAg (+)\n- AFP > 400 UI/ml\n- CT: HCC đa ổ",
-          "chi_dinh": ""
-        }
-      ],
-      "tests": [
-        {
-          "ngay_xet_nghiem": "18/05/2026",
-          "xet_nghiem_mau": "AFP: 455.3",
-          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 1-32 dãy) [Ngày CĐ:18/05/2026 08:45] [Ngày BĐ: 18/05/2026 10:36] [Ngày KT: 18/05/2026 10:37]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: \nChụp CLVT < 32 dãy vùng tầng trên ổ bụng trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm,\nMô tả: Bn khai có tiền sử viêm gan B đã lâu (ko có xét nghiệm), hiện đau tưc vùng bụng), xn AFP 455. CT Scan thấy:\n- Gan: \n+ Gan (P): nhu mô thô, kém đồng nhất, chưa rõ tổn thương đặc hiệu.\n+ Gan (T): tổn thương u gan diện rộng ở các Hpt, giàu mạch, già mạch, ngấm thuốc cản quang mạnh thì động mạch, thải nhanh thì tĩnh mạch. \nCó huyết khối tĩnh mạch cửa nhánh (T) lan xuống thân chung. Tĩnh mạch cửa nhánh (P) không giãn, lưu thông qua các nhánh bàng hệ vùng rốn gan. \n+ Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi cản quang. \n- Tụy, lách, thận 2 bên chưa phát hiện tổn thương đặc hiệu\n- Ổ bụng không thấy hạch to, không thấy dịch tự do.\n- Chưa phát hiện tổn thương đặc hiệu khác trên phim. \n\nKết luận:\n\nHình ảnh HCC lan tỏa gan (T) & Huyết khối tm cửa nhánh (T) lan thân chung.\n\n\nĐề nghị:\n\nNhập viện điều trị nội khoa, điều trị đích, kết hợp TACE, HAIC."
         }
       ],
       "hoi_chan": {}
@@ -258,6 +122,174 @@
           "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (bao gồm mạch: gan, tụy, lách và mạch khối u) (từ 1-32 dãy) [Ngày CĐ:20/05/2026 14:03] [Ngày BĐ: 20/05/2026 15:41] [Ngày KT: 20/05/2026 15:42]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: Chụp CLVT < 32 dãy ổ bụng có khảo sát mạch tạng (gồm: gan, tụy, lách và mạch khối u) trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm\nMô tả: người nhà khai có tiền sử viêm gan B và xơ gan đã lâu. Phát hiện u gan 2025 TTH phát hiện u gan (không có giấy tờ). \n- Gan: kích thước: không to, bờ không đều, nhu mô thô không đồng nhất. Gan (P) có khối u lớn, chủ yếu ở các Hpt V, VII, VI và có u nhỏ ở Hpt VI. \n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan: không giãn, không thấy sỏi tăng tỷ trọng. Túi mật không có sỏi cản quang. có gí dịch giường túi mật và bao gan. \n- Tuỵ, lách, thận 2 bên: Chưa phát hiện tổn thương đặc hiệu. \n- Ổ bụng có ít dịch tự do cùng đồ.\n\nKết luận:\n\nHÌNH ẢNH PHÙ HỢP HCC Ổ LỚN HPT V, VII, VII VÀ Ổ NHỎ HPT V\n\nĐề nghị:\n\nNHẬP VIỆN ĐIỀU TRỊ - XÉT NGHIỆM AFP. HỘI CHẨN NÚT MẠCH TACE SAU KHI CÓ KẾT QUẢ"
         }
       ],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": false,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "00",
+        "thoi_gian_hc_phut": "11",
+        "thoi_gian_hc_ngay": "21/05/2026",
+        "dia_diem_hc": "",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "",
+        "thanh_vien": "",
+        "tom_tat_tinh_trang": "",
+        "van_de_hc": "",
+        "ket_luan_hc": ""
+      }
+    },
+    {
+      "ma_benh_nhan": "2600086094",
+      "ho_ten": "NGUYỄN THỊ RUY",
+      "tuoi": "71 tuổi",
+      "gioi_tinh": "Nữ",
+      "dia_chi": "Bảo Ninh-Phường Đồng Hới--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "C22.9-U ác của gan, không đặc hiệu",
+      "thoi_gian": "28/05/2026 07:08",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "19:50 20/05/2026",
+          "ngay_dien_bien": "20/05/2026",
+          "gio_dien_bien": "19:50",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử   K gan /Viêm gan B -  Tăng huyết áp  đã  TACE  3 lần (tiến triển) => điều trị thuốc đích Lenvanib,  Tăng huyết áp  .  Bệnh nhân khoảng 1 tuần nay mệt, ăn kém, nôn nhiều.\nKhám: \n Tỉnh, tiếp xúc tốt , ECOG PS 1\n Da niêm mạc nhạt màu \n Tim nhịp đều, T1T2 rõ \n Không ho, không khó thở \n Hai phổi thông khí rõ, không nghe rale \n Bụng mềm,  Đau hạ sườn phải \nGan lớn\nBuồn nôn, nôn",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600085929",
+      "ho_ten": "NGUYỄN VĂN TIẾN",
+      "tuoi": "41 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Xã Tân Mỹ--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn B ",
+      "thoi_gian": "21/05/2026 08:40",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "08:40 21/05/2026",
+          "ngay_dien_bien": "21/05/2026",
+          "gio_dien_bien": "08:40",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Khởi bệnh tháng 7/2024 với đau hạ sườn phải đã được TACE 1 lần sau đó cuối T7/2024 được RFA lần 1. Đến 9/2024 phát hiện tái phát đốt RFA lần 2 và TACE tháng 10/2024 tại viện Chợ Rẫy. Sau tái phát nút mạch 4 lần nữa tại bệnh viện Cuba vào các tháng 1, 4, 5, 8/2025. Mấy ngày nay đau nhiều hạ sườn phải lo lắng nên nhập viện.\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạc h ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn  V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p,  rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấ\ny.\nΔ: Ung thư gan nguyên phát giai đoạn B",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600086685",
+      "ho_ten": "NGUYỄN NÒI",
+      "tuoi": "70 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Xuân Hòa-Xã Quảng Trạch--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C ",
+      "thoi_gian": "21/05/2026 17:30",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "17:30 21/05/2026",
+          "ngay_dien_bien": "21/05/2026",
+          "gio_dien_bien": "17:30",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân Ung thư gan nguyên phát đã TACE 7 lần tại Bệnh viện Trung Ương Huế ( theo lời khai của bệnh nhân , không có giấy tờ ). Khoảng 1 tuần nay, bệnh nhân chướng bụng, ăn uống kém, mệt nhiều. Nay chướng bụng tăng lên nên vào viện điều trị.\nHiện tại:\nTỉnh, tiếp xúc tốt, ECOG PS 2\nDa, niêm mạc sạm màu\nThể trạng suy nhược.\nBụng chướng, gõ đục. Đau lâm râm vùng hạ sườn Phải.\nĂn uống kém\nPhổi thông khí rõ 2 bên, chưa nghe rale\nTim đều. T1, T2 nghe rõ\nNước tiểu vàng trong. Không tiểu buốt, rát",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600088724",
+      "ho_ten": "NGUYỄN THỊ BÚP",
+      "tuoi": "66 tuổi",
+      "gioi_tinh": "Nữ",
+      "dia_chi": "Xã Lệ Thủy--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C ",
+      "thoi_gian": "26/05/2026 11:20",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "11:20 26/05/2026",
+          "ngay_dien_bien": "26/05/2026",
+          "gio_dien_bien": "11:20",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân ung thư gan đã điều trị nút mạch 3 lần (lần cuối 9/2025) nay tái khám phát hiện thấy u ổn định tuy nhiêu phù, ăn uống kém lo lăng nên nhập viện điều trị\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc vàng nhẹ, phù 2 chi dưới, không xuất huyết, hạch ngoại vi chưa sờ thấy. \n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales \n- Bụng mềm, ấn hạ sườn phải đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan nguyên phát giai đoạn C",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600089476",
+      "ho_ten": "MAI THANH HẢI",
+      "tuoi": "70 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Thôn Gia Tinh-Xã Phong Nha--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C ",
+      "thoi_gian": "27/05/2026 08:20",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "08:20 27/05/2026",
+          "ngay_dien_bien": "27/05/2026",
+          "gio_dien_bien": "08:20",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Khởi bệnh 27/03/2026 với đau dữ dội hạ sườn phải kèm huyết áp tụt được đưa vào khám cấp cứu với chẩn đoán Shock mất máu/TD K gan vỡ sau đó được nút mạch gan cầm máu (AFP: 1100 UI/ml, VGB (+), CT: HCC) và điều trị nội khoa. Đến tháng 4/2026 đã được nút mạch lần II. Mấy ngày nay mệt nhiều, đau đầu, hoa mắt chóng mặt,  lo lắng nên nhập viện điều trị\nHiện tại:\nTỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù,  không xuất huyết, hạch ngoại vi chưa sờ thấy. \nLồng ngực cân đối, rì rào phế nang êm, phổi kh ông rales \nMỏm tim đập ở khoang liên sườn V đường giữa đò n (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Bụng mềm, ấn thượng vị đau, gan lách ch ưa sờ thấy. \nΔ: Ung thư gan nguyên phát giai đoạn C",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600086266",
+      "ho_ten": "NGUYỄN HỮU CẦU",
+      "tuoi": "73 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Cù Lạc 2-Xã Phong Nha--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn B ",
+      "thoi_gian": "27/05/2026 15:10",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "15:10 27/05/2026",
+          "ngay_dien_bien": "27/05/2026",
+          "gio_dien_bien": "15:10",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử đặt sten mạch vàng, ĐTĐ khám phát hiện K gan \nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch ngoại vi chưa sờ thấy. \n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan nguyên phát giai đoạn B / Đặt stent mạch vành - ĐTĐII",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
       "hoi_chan": {}
     }
   ],
@@ -15050,6 +15082,176 @@
           "bac_si_dieu_tri": "Bs Trương Quang Lương",
           "dien_bien": "Bệnh nhân nhận thuốc xong",
           "chi_dinh": "làm thủ tục ngoại trú"
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600076130",
+      "ho_ten": "HỒ VĂN NGỌC",
+      "tuoi": "46 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Chân Trộng-Xã Trường Sơn--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "7",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C",
+      "thoi_gian": "06/05/2026 09:40",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "09:40 06/05/2026",
+          "ngay_dien_bien": "06/05/2026",
+          "gio_dien_bien": "09:40",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Khởi bệnh T11/24, phát hiện u gan Hpt VI # 4.5 x 5.5cm => xn: VGB (+), AFP 34 => HCC => T12/2024 PT cắt u gan và túi mật => GPB sau cắt U: HCC => T2/25: hết U và AFP = 2. T12/25 tái khám Cuba: AFP tăng lên 56, CTscan tái phát diện rộng cạnh diện cắt => TACE. Đến T3/2026 TACE 1 lần nay vào viện điều trị tiếp\nHiện tại:\nTỉnh, tiếp xúc tốt, da niêm mạc hồng\nTim nhịp đều\nKhông ho\nPhổi thông khí rõ\n Bụng mềm, ấn không đau\nĐại tiện phân vàng khuôn \nNước tiểu vàng trong",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [],
+      "hoi_chan": {
+        "de_xuat_cua": "Ung Bướu",
+        "hc_khoa": false,
+        "hc_lienkhoa": false,
+        "hc_toanvien": false,
+        "hc_lienbenhvien": false,
+        "hc_khac": "",
+        "thoi_gian_hc_gio": "23",
+        "thoi_gian_hc_phut": "46",
+        "thoi_gian_hc_ngay": "06/05/2026",
+        "dia_diem_hc": "",
+        "chu_toa": "Bs Bùi Vĩ Nhân",
+        "thu_ky": "Bs Trương Quang Lương",
+        "ly_do_hc": "",
+        "thanh_vien": "",
+        "tom_tat_tinh_trang": "",
+        "van_de_hc": "",
+        "ket_luan_hc": ""
+      }
+    },
+    {
+      "ma_benh_nhan": "2600080527",
+      "ho_ten": "HOÀNG THỊ THIÊN",
+      "tuoi": "69 tuổi",
+      "gioi_tinh": "Nữ",
+      "dia_chi": "Phường Đồng Hới--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "2",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn B ",
+      "thoi_gian": "13/05/2026 15:25",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "15:25 13/05/2026",
+          "ngay_dien_bien": "13/05/2026",
+          "gio_dien_bien": "15:25",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Khởi bệnh từ tháng 8 năm 2025 với đau hạ sườn phải đi khám được chẩn đoán ung thư gan nguyên phát đã được phẫu thuật cắt gan tại bệnh viện TW Huế, đến tháng 10 tái khám phát hiện tái phát đã được đốt RF sau đốt bệnh ổn định. Đến tháng 4/2026 phát hiện khối u tái phát kích thước khoảng 20mm nhưng không điều trị gì. Nay tái khám u tăng kích thước lên 30mm lo lắng nên nhập viện\nHiện tại: \n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch ngoại vi chưa sờ thấy.\n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiế\nng bệnh lý\n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales\n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy.\nΔ: Ung thư gan nguyên phát giai đoạn B",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "13/05/2026",
+          "xet_nghiem_mau": "Định lượng AFP (Alpha Fetoproteine) [Máu] 0 - 5,8 2.10 IU/mL",
+          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy) [Ngày CĐ:13/05/2026 07:22] [Ngày BĐ: 13/05/2026 10:28] [Ngày KT: 13/05/2026 10:29]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: \nChụp CLVT ổ bụng trên máy MSCT 128 dãy SIEMENS GOTOP trước và sau tiêm thuốc cản quang tĩnh mạch.\nMô tả: Bệnh sử: Bn có tiền sử Viêm B đã lâu, hiên tại đang dùng thuốc điều trị virut. T7/25: SA CuBa phát hiện U gan, AFP (-) => Huế => T8/25: PT cắt gan Phân thùy trước và túi mật => GPB đại thể sau PT: kết quả HCC => 29/9/25: Tái phát => T10/25: Huế RFA. Tái khám chụp CT Scan 5/2 & 08/4/2026. Nay 13/6/26 tái khám, thấy:\n- Gan: \n+ Tổn thương cũ: Đã cắt phân thùy trước và túi mật, diện cắt hiện tại ổn định. Tái phát ở Hpt VIII đã đốt RFA. \n+ Tổn thương mới: Phân Hpt VII - phân thùy sau gan (P), cạnh u cũ đã đốt RFA có tổn thương mới tăng dần kích thước theo thời gian, hiện tại # 25mm, sau tiêm ngấm thuốc mạnh thì động mạch, thải nhanh thì tĩnh mạch. \n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan không giãn, không thấy sỏi tăng tỷ trọng.\n- Túi mật: đã cắt.\n- Tuỵ, Lách, thận 2 bên: chưa phát hiện tổn thương đặc hiệu. \n- Ổ bụng không thấy hạch to.\n\nKết luận:\n\n- HCC ĐÃ PHẪU THUẬT CẮT HẠ PHÂN THÙY TRƯỚC VÀ TÚI MẬT\n- TỔN THƯƠNG TÁT PHÁT PHÂN THÙY SAU ĐÃ ĐỐT RFA\n- TỔN THƯƠNG MỚI CẠNH DIỆN ĐỐT Ở HPT VII TÁI PHÁT, KÍCH THƯỚC # 32MM. \n- XƠ GAN\n\nĐề nghị:\n\nNHẬP VIỆN ĐIỀU TRỊ, CÓ CHỈ ĐỊNH NÚT MẠCH TACE"
+        }
+      ],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600084248",
+      "ho_ten": "CAO VĂN DI",
+      "tuoi": "64 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Hóa Lương-Xã Kim Điền--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "5",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn B ",
+      "thoi_gian": "18/05/2026 09:20",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "09:20 18/05/2026",
+          "ngay_dien_bien": "18/05/2026",
+          "gio_dien_bien": "09:20",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bn lâu nay không đi khám nên không biết bệnh. Ngày 05/2/26 => đau bụng dữ dội, đột ngột => BV Minh Hóa => Cuba: Bn trụy mạch, có u gan, HBsAg 6571, AFP 2317, Siêu âm & CLVT khối u vỡ, chảy máu ổ bụng lượng => HCC vỡ chảy máu ổ bụng lượng nhiều tiến triển => Nút mạch cầm máu cấp cứu kết hợp TACE. 19/3/26: Nút mạch TACE 2. Tái khám phát hiện thấy u tăng sinh mạch nên nhập viện điều trị\nHiện tại:\n - Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch ngoại vi chưa sờ thấy. \n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- CT: HCC ĐA Ổ VỠ ĐÃ ĐƯỢC NÚT MẠCH NAY HOẠI TỬ, XƠ HÓA BÁN PHẦN, PHẦN CÒN LẠI CHƯA NÚT HẾT GIÀU MẠCH\n- XƠ GAN\n- AFP: 21216 UI/ml\nΔ: Ung thư gan nguyên phát giai đoạn B",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "06/05/2026",
+          "xet_nghiem_mau": "AFP: 21216",
+          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 64-128 dãy) [Ngày CĐ:06/05/2026 11:18] [Ngày BĐ: 06/05/2026 16:26] [Ngày KT: 06/05/2026 16:27]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: Chụp CLVT ổ bụng trên máy MSCT 128 dãy SIEMENS GOTOP trước và sau tiêm thuốc cản quang tĩnh mạch.\nMô tả: Bn lâu nay không đi khám nên không biết bệnh. Ngày 05/2/26 => đau bụng dữ dội, đột ngột => BV Minh Hóa => Cuba: Bn trụy mạch, có u gan, HBsAg 6571, AFP 2317, Siêu âm & CLVT khối u vỡ, chảy máu ổ bụng lượng => HCC vỡ chảy máu ổ bụng lượng nhiều tiến triển => Nút mạch cầm máu cấp cứu kết hợp TACE. 19/3/26: Nút mạch TACE 2. Nay 06/4/26, tái khám, thấy: \n- GAN: \n+ HCC đa ổ lớn. Ổ ở Hpt V vỡ sau nút mạch cầm máu kết hợp TACE đã hoại tử, thuyên giảm, phần viền chưa nút hết. Khối ở Hpt IV # 80mm và Hpt III # 30mm sau nút mạch hoại tử bán phần. Phần còn lại chưa nút hết giàu mạch tân sinh. \n+ Nhu mô gan còn lại thô, không đồng nhất, đường bờ không đều, \n- Tĩnh mạch cửa không giãn, không thấy huyết khối.\n- Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi tăng tỷ trọng.\n- Ống mật chủ không giãn, không thấy sỏi tăng tỷ trọng. \n- Tuỵ, lách, thận 2 bên: chưa phát hiện tổn thương đặc hiệu.\n- Chưa rõ tổn thương đặc hiệu khác trên phim \n\nKết luận:\n\n- HCC ĐA Ổ VỠ ĐÃ ĐƯỢC NÚT MẠCH NAY HOẠI TỬ, XƠ HÓA BÁN PHẦN, PHẦN CÒN LẠI CHƯA NÚT HẾT GIÀU MẠCH\n- XƠ GAN\n\nĐề nghị:\n\nNHẬP VIỆN, NÚT MẠCH TACE LẦN TIẾP THEO KẾT HỢP ĐIỀU TRỊ ĐÍCH"
+        }
+      ],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600084188",
+      "ho_ten": "CAO PHƯỜNG",
+      "tuoi": "44 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Xã Kim Điền--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "1",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C ",
+      "thoi_gian": "18/05/2026 11:30",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "11:30 18/05/2026",
+          "ngay_dien_bien": "18/05/2026",
+          "gio_dien_bien": "11:30",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân tiền sử viêm gan B đã lâu không điều trị. Đau bụng khoảng 1 tháng không điều trị gì. Mấy ngày nay đau tăng đi khám phát hiện u gan nên nhập viện\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, không phù, không xuất huyết, hạch  ngoại vi chưa sờ thấy. \n- Mỏm tim đập ở khoang liên sườn V đường giữa đòn (T), nhịp tim đều, T1, T 2 nghe rõ., chưa phát hiện tiếng bệnh lý \n- Lồng ngực cân đối, rì rào phế nang êm, phổi không rales \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \n- HBsAg (+)\n- AFP > 400 UI/ml\n- CT: HCC đa ổ",
+          "chi_dinh": ""
+        }
+      ],
+      "tests": [
+        {
+          "ngay_xet_nghiem": "18/05/2026",
+          "xet_nghiem_mau": "AFP: 455.3",
+          "xet_nghiem_hinh_anh": "Chụp cắt lớp vi tính tầng trên ổ bụng thường quy (gồm: chụp Cắt lớp vi tính gan-mật, tụy, lách, dạ dày-tá tràng.v.v.) (từ 1-32 dãy) [Ngày CĐ:18/05/2026 08:45] [Ngày BĐ: 18/05/2026 10:36] [Ngày KT: 18/05/2026 10:37]\n\nMô tả:\n\n\nĐọc kết quả:\n\nKỹ thuật: \nChụp CLVT < 32 dãy vùng tầng trên ổ bụng trước và sau tiêm thuốc cản quang tĩnh mạch, các lớp cắt 5mm,\nMô tả: Bn khai có tiền sử viêm gan B đã lâu (ko có xét nghiệm), hiện đau tưc vùng bụng), xn AFP 455. CT Scan thấy:\n- Gan: \n+ Gan (P): nhu mô thô, kém đồng nhất, chưa rõ tổn thương đặc hiệu.\n+ Gan (T): tổn thương u gan diện rộng ở các Hpt, giàu mạch, già mạch, ngấm thuốc cản quang mạnh thì động mạch, thải nhanh thì tĩnh mạch. \nCó huyết khối tĩnh mạch cửa nhánh (T) lan xuống thân chung. Tĩnh mạch cửa nhánh (P) không giãn, lưu thông qua các nhánh bàng hệ vùng rốn gan. \n+ Đường mật trong và ngoài gan, túi mật không giãn, không thấy sỏi cản quang. \n- Tụy, lách, thận 2 bên chưa phát hiện tổn thương đặc hiệu\n- Ổ bụng không thấy hạch to, không thấy dịch tự do.\n- Chưa phát hiện tổn thương đặc hiệu khác trên phim. \n\nKết luận:\n\nHình ảnh HCC lan tỏa gan (T) & Huyết khối tm cửa nhánh (T) lan thân chung.\n\n\nĐề nghị:\n\nNhập viện điều trị nội khoa, điều trị đích, kết hợp TACE, HAIC."
+        }
+      ],
+      "hoi_chan": {}
+    },
+    {
+      "ma_benh_nhan": "2600085881",
+      "ho_ten": "LÊ VĂN VUI",
+      "tuoi": "69 tuổi",
+      "gioi_tinh": "Nam",
+      "dia_chi": "Phúc Tự Tây-Xã Hoàn Lão--Tỉnh Quảng Trị",
+      "khoa": "Ung bướu",
+      "phong": "6",
+      "giuong": "",
+      "chan_doan": "Ung thư gan nguyên phát giai đoạn C ",
+      "thoi_gian": "20/05/2026 10:12",
+      "treatments": [
+        {
+          "ngay_gio_y_lenh": "10:12 20/05/2026",
+          "ngay_dien_bien": "20/05/2026",
+          "gio_dien_bien": "10:12",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân ung thư gan nguyên phát giai đoạn C đang điều trị giảm đau bằng morphin 30mg. Mấy ngày nay hết thuốc xin điều trị ngoại trú nhận thuốc\nHiện tại:\n- Tỉnh, tiếp xúc tốt, da niêm mạc hồng, hạch ngoại vi chưa sờ thấy, không phù, không xuất huyết \n- Mỏm tim đập ở khoang liên sườn V đường nách giữa, nhịp tim đều, T1, T2 nghe rõ. Chưa phát hiện tiếng tim bệnh lý \n- Lồng ngực cân đối, nhịp thở 18l/p, rì rào phế nang êm, chưa phát hiện tiếng ran. \n- Bụng mềm, ấn HSP đau, gan lách chưa sờ thấy. \nΔ: Ung thư gan nguyên phát giai đoạn C",
+          "chi_dinh": "(1) Morphin 30mg                   x     Mười tám viên\n10ml/lần * 6 lần/ngày * 7 ngày. Pha mỗi viên với 30ml nước uống mỗi 4 tiếng"
+        },
+        {
+          "ngay_gio_y_lenh": "10:30 20/05/2026",
+          "ngay_dien_bien": "20/05/2026",
+          "gio_dien_bien": "10:30",
+          "to_so": "1",
+          "bac_si_dieu_tri": "Bs Trương Quang Lương",
+          "dien_bien": "Bệnh nhân nhận thuốc xong",
+          "chi_dinh": "- Làm thủ tục ra viện ngoại trú"
         }
       ],
       "tests": [],
